@@ -1,6 +1,6 @@
 .headerCBR {
   height: 90vh;
-  background-color: yellow;
+  background-color: white;
   text-align: center;
   background-image: url("./assets/img/header1.jfif");
   background-position: center;
@@ -28,6 +28,8 @@
   line-height: 1em;
   margin-top: 25px;
   background-color: rgba(255, 255, 255, 0.92);
+  color: #777;
+  font-weight: 400;
 }
 .headerCBR .containerHeader iframe {
   width: 100%;
@@ -60,30 +62,68 @@
   background-color: rgba(255, 255, 255, 0.95);
 }
 
-.metodo {
+.metodoUm {
   height: 100%;
   width: 100%;
   background-color: #535796;
-}
-.metodo .conteudoMetodo {
-  width: 75%;
-  margin: 0px auto;
   padding: 40px 0;
 }
-.metodo .conteudoMetodo h2 {
+.metodoUm .conteudoMetodoUm {
+  width: 75%;
+  margin: 0px auto;
+}
+.metodoUm .conteudoMetodoUm h2 {
   line-height: 1em;
   text-align: center;
   color: white;
 }
-.metodo .conteudoMetodo p {
+.metodoUm .conteudoMetodoUm p {
   line-height: 1.5em;
   text-align: center;
   color: white;
   font-weight: 400;
   margin: 35px 0;
 }
-.metodo .conteudoMetodo p strong {
+.metodoUm .conteudoMetodoUm p strong {
   font-weight: 600;
+}
+
+.metodoDois {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  padding: 40px 0;
+}
+.metodoDois .conteudoMetodoDois {
+  width: 75%;
+  margin: 0px auto;
+}
+.metodoDois .conteudoMetodoDois h2 {
+  line-height: 1em;
+  text-align: center;
+  color: #535796;
+  max-width: 30ch;
+}
+.metodoDois .conteudoMetodoDois p {
+  line-height: 1.5em;
+  text-align: center;
+  color: gray;
+  font-weight: 400;
+  margin: 35px 0;
+}
+.metodoDois .conteudoMetodoDois p strong {
+  font-weight: 600;
+}
+.metodoDois .conteudoMetodoDois button {
+  padding: 5px 8px;
+  font-size: 22px;
+  line-height: 22px;
+  background-color: #f40;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  height: 60px;
+  width: 100%;
 }
 
 #whatsapp {
@@ -91,8 +131,8 @@
   position: fixed;
   bottom: 15px;
   left: 15px;
-  width: 70px;
-  height: 70px;
+  width: 65px;
+  height: 65px;
   border-radius: 100%;
   border: none;
   box-shadow: -1px 2px 15px #aaa;

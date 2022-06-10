@@ -3,7 +3,7 @@ $corSecundaria: #535796;
 
 .headerCBR {
   height: 90vh;
-  background-color: yellow;
+  background-color: white;
   text-align: center;
   background-image: url("./assets/img/header1.jfif");
   background-position: center;
@@ -34,6 +34,8 @@ $corSecundaria: #535796;
       line-height: 1em;
       margin-top: 25px;
       background-color: rgba(255, 255, 255, .92);
+      color: #777;
+      font-weight: 400;
     }
 
     iframe {
@@ -72,15 +74,15 @@ $corSecundaria: #535796;
   }
 }
 
-.metodo {
+.metodoUm {
   height: 100%;
   width: 100%;
   background-color: $corSecundaria;
+  padding: 40px 0;
 
-  .conteudoMetodo {
+  .conteudoMetodoUm {
     width: 75%;
     margin: 0px auto;
-    padding: 40px 0;
 
     h2 {
       line-height: 1em;
@@ -102,13 +104,56 @@ $corSecundaria: #535796;
   }
 }
 
+.metodoDois {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  padding: 40px 0;
+
+  .conteudoMetodoDois {
+    width: 75%;
+    margin: 0px auto;
+
+    h2 {
+      line-height: 1em;
+      text-align: center;
+      color: $corSecundaria;
+      max-width: 30ch;
+    }
+  
+    p {
+      line-height: 1.5em;
+      text-align: center;
+      color: gray;
+      font-weight: 400;
+      margin: 35px 0;
+
+      strong {
+        font-weight: 600;
+      }
+    }
+
+    button {
+      padding: 5px 8px;
+      font-size: 22px;
+      line-height: 22px;
+      background-color: $corPrimaria;
+      color: white;
+      border: none;
+      border-radius: 14px;
+      height: 60px;
+      width: 100%;
+    }
+  }
+}
+
 #whatsapp {
   background-color: #26CC64;
   position: fixed;
   bottom: 15px;
   left: 15px;
-  width: 70px;
-  height: 70px;
+  width: 65px;
+  height: 65px;
   border-radius: 100%;
   border: none;
   box-shadow: -1px 2px 15px #aaa;

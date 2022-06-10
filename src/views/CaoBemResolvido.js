@@ -14,12 +14,12 @@ export default function CaoBemResolvido(){
         <div className="bgHeader">
           <div className="containerHeader">
             <h1>DESCUBRA COMO ADESTRAR O SEU PRÓPRIO CÃO EM ATÉ 14 DIAS!</h1><br/><br/><br/>
-            <p>Sem brigar com ele e mesmo que você não entenda NADA de Cachorro!</p>
+            <p><strong>Sem brigar com ele</strong> e mesmo que você não entenda NADA de Cachorro!</p>
 
             <iframe src="https://www.youtube.com/embed/eHWPAgBzW4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             <button>Quero que meu cachorro me obedeça!</button><br/><br/>
-            <sub>Acesso por apenas 12x <strong>R$</strong></sub>
+            <sub>Acesso por apenas 12x <strong>R$29,64</strong></sub>
           </div>
         </div>
       </header>
@@ -36,15 +36,22 @@ export default function CaoBemResolvido(){
               </Depoimentos>
             </div>
           </section>
-          <section className="metodo">
-            <div className="conteudoMetodo">
+          <section className="metodoUm">
+            <div className="conteudoMetodoUm">
               <h2>O único curso que você precisa para se dar bem com seu melhor amigo!</h2>
               <p>Eu desenvolvi o treinamento Cão Bem Resolvido <strong>para você conseguir finalmente conseguir ter um cão adestrado de uma vez por todas</strong>.</p>
               <p>São várias vídeo aulas de 5-10 minutos em que eu te mostro na prática como eu adestro cães e <strong>como você resolverá problemas como xixi e cocô, mordidas, chorar quando fica sozinho, passeio puxando e muito mais</strong>.</p>
+              
+            </div>
+          </section>
+          <section className="metodoDois">
+            <div className="conteudoMetodoDois">
+              <h2>Apenas 15 minutinhos por dia</h2>
               <p>Você vai precisar de <strong>apenas de 15 minutinhos por dia</strong> para aplicar as minhas técnicas e resolver os seus problemas com o seu melhor amigo.</p>
               <p>Vou te mostrar como você vai conseguir resolver todos os problemas que você está passando com o seu cão de <strong>forma muito fácil e didática</strong>.</p>
               <p>Além disso eu vou te dar um <strong>suporte personalizado no meu Grupo VIP</strong>, lá eu tiro todas as dúvidas dos alunos diariamente.</p> 
               <p>Agora é com você, estou te esperando!</p>
+              <button>Só 15 minutos? Eu quero!</button>
             </div>
           </section>
           <section className="depoimentoUm"></section>

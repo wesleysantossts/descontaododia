@@ -32,6 +32,7 @@ export const Depoimentos = styled.div`
     line-height: 1em;
     text-align: center;
     font-size: 0.8em;
+    font-weight: 400;
     max-width: 50ch;
   }
 `;
