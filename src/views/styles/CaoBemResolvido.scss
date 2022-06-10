@@ -19,7 +19,7 @@ $corSecundaria: #535796;
   .containerHeader {
     width: 75%;
     margin: auto;
-    padding-top: 40px;
+    padding: 40px 0;
     
     h1 {
       display: inline;
@@ -60,6 +60,7 @@ $corSecundaria: #535796;
     sub {
       font-size: 14px;
       font-weight: 400;
+      color: #777;
     }
   }
 }
@@ -133,16 +134,27 @@ $corSecundaria: #535796;
       }
     }
 
-    button {
-      padding: 5px 8px;
-      font-size: 22px;
-      line-height: 22px;
-      background-color: $corPrimaria;
-      color: white;
-      border: none;
-      border-radius: 14px;
-      height: 60px;
-      width: 100%;
+    .btnSatisfacao {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      button {
+        padding: 5px 8px;
+        font-size: 22px;
+        line-height: 22px;
+        background-color: $corPrimaria;
+        color: white;
+        border: none;
+        border-radius: 14px;
+        height: 60px;
+        width: 100%;
+      }
+  
+      img {
+        margin: 10px 0;
+      }
     }
   }
 }
