@@ -1,0 +1,59 @@
+.headerCBR {
+  height: 95vh;
+  background-color: yellow;
+  text-align: center;
+  background-image: url("./assets//header1.jfif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  .bgHeader {
+    height: 100%;
+    background-color: rgba(255,255,255, .80);
+
+  }
+
+  .containerHeader {
+    width: 75%;
+    margin: auto;
+    padding-top: 40px;
+    
+    h1 {
+      display: inline;
+      font-size: 28px;
+      font-weight: 900;
+      background-color: rgba(255, 255, 255, .92);
+      color: #f40;
+    }
+
+    p {
+      display: inline;
+      line-height: 1em;
+      margin-top: 25px;
+      background-color: rgba(255, 255, 255, .92);
+    }
+
+    iframe {
+      width: 100%;
+      min-height: 35vh;
+      margin: 20px 0;
+      border-radius: 12px;
+    }
+
+    button {
+      padding: 5px 8px;
+      font-size: 22px;
+      line-height: 22px;
+      background-color: #f40;
+      color: white;
+      border: none;
+      border-radius: 14px;
+    
+    }
+
+    sub {
+      font-size: 14px;
+    }
+  }
+
+}
