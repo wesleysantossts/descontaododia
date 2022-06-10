@@ -6,6 +6,7 @@ import {Depoimentos} from "../components/CaoBemResolvido.js";
 import depo1 from "./styles/assets/img/depoimento1.png";
 import depo2 from "./styles/assets/img/depoimento2.png";
 import depo3 from "./styles/assets/img/depoimento3.png";
+import satisfacaoGarantida from "./styles/assets/img/satisfacaoGarantida.png";
 
 export default function CaoBemResolvido(){
   return(
@@ -51,10 +52,17 @@ export default function CaoBemResolvido(){
               <p>Vou te mostrar como você vai conseguir resolver todos os problemas que você está passando com o seu cão de <strong>forma muito fácil e didática</strong>.</p>
               <p>Além disso eu vou te dar um <strong>suporte personalizado no meu Grupo VIP</strong>, lá eu tiro todas as dúvidas dos alunos diariamente.</p> 
               <p>Agora é com você, estou te esperando!</p>
-              <button>Só 15 minutos? Eu quero!</button>
+              <div className="btnSatisfacao">
+                <button>Só 15 minutos? Eu quero!</button>
+                <img src={satisfacaoGarantida} alt="satisfação garantida" width="80%"/>
+              </div>
             </div>
           </section>
-          <section className="depoimentoUm"></section>
+          <section className="pqServe">
+            <div className="conteudoPqServe">
+
+            </div>
+          </section>
           <section className="modulos"></section>
           <section className="bonus"></section>
           <section className="resultadosDois"></section>

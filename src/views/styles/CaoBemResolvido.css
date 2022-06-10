@@ -14,7 +14,7 @@
 .headerCBR .containerHeader {
   width: 75%;
   margin: auto;
-  padding-top: 40px;
+  padding: 40px 0;
 }
 .headerCBR .containerHeader h1 {
   display: inline;
@@ -51,6 +51,7 @@
 .headerCBR .containerHeader sub {
   font-size: 14px;
   font-weight: 400;
+  color: #777;
 }
 
 .resultadosUm {
@@ -114,7 +115,13 @@
 .metodoDois .conteudoMetodoDois p strong {
   font-weight: 600;
 }
-.metodoDois .conteudoMetodoDois button {
+.metodoDois .conteudoMetodoDois .btnSatisfacao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.metodoDois .conteudoMetodoDois .btnSatisfacao button {
   padding: 5px 8px;
   font-size: 22px;
   line-height: 22px;
@@ -124,6 +131,9 @@
   border-radius: 14px;
   height: 60px;
   width: 100%;
+}
+.metodoDois .conteudoMetodoDois .btnSatisfacao img {
+  margin: 10px 0;
 }
 
 #whatsapp {
