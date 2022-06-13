@@ -102,7 +102,7 @@ export default function CaoBemResolvido(){
                 <ImQuotesLeft className="quoteUm" size={40}/> 
                 <img src={depo4} alt="Site Descontao do Dia - Depoimento Brunna Póvoa"/>
                 <ImQuotesRight className="quoteDois" size={40} />
-                <p>Assim como a Brunna Póvoa, você também consegue ter o resultado desejado com o seu amiguinho.</p>
+                <p>Assim como a Brunna Póvoa, <strong>você também consegue</strong> ter o resultado desejado com o seu amiguinho.</p>
               </div>
             </div>
           </section>
