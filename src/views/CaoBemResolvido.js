@@ -7,9 +7,11 @@ import {FaWhatsapp, FaLightbulb} from "react-icons/fa";
 import {BiHomeHeart} from "react-icons/bi";
 import {MdOutlinePets} from "react-icons/md";
 import {GiLoveInjection} from "react-icons/gi";
+import {ImQuotesLeft, ImQuotesRight} from "react-icons/im";
 import depo1 from "./styles/assets/img/depoimento1.png";
 import depo2 from "./styles/assets/img/depoimento2.png";
 import depo3 from "./styles/assets/img/depoimento3.png";
+import depo4 from "./styles/assets/img/depoimento4.jpeg";
 import satisfacaoGarantida from "./styles/assets/img/satisfacaoGarantida.png";
 
 export default function CaoBemResolvido(){
@@ -90,6 +92,17 @@ export default function CaoBemResolvido(){
                   <GiLoveInjection size={80} />
                   <p>Estudantes e médicos veterinários</p>
                 </div>
+              </div>
+            </div>
+          </section>
+          <section className="depoimentoUnico">
+            <div className="conteudoDepoimentoUnico">
+              <h2>Resultado que você não terá em outro lugar</h2>
+              <div>
+                <ImQuotesLeft className="quoteUm" size={40}/> 
+                <img src={depo4} alt="Site Descontao do Dia - Depoimento Brunna Póvoa"/>
+                <ImQuotesRight className="quoteDois" size={40} />
+                <p>Assim como a Brunna Póvoa, você também consegue ter o resultado desejado com o seu amiguinho.</p>
               </div>
             </div>
           </section>

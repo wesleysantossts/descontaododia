@@ -19,11 +19,15 @@ const GlobalStyle = createGlobalStyle`
   h1 {
     font-size: 42px;
     font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
   }
 
   h2 {
     font-size: 36px;
     font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
   }
 
   h3 {
@@ -34,11 +38,13 @@ const GlobalStyle = createGlobalStyle`
   p {
     font-size: 18px;
     font-weight: 900;
+    color: gray;
   }
 
   sub {
     font-size: 16px;
     font-weight: 500;
+    color: gray;
   }
 
   button {
