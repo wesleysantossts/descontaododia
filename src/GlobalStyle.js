@@ -24,25 +24,21 @@ const GlobalStyle = createGlobalStyle`
   h2 {
     font-size: 36px;
     font-weight: 900;
-    line-height: 0px;
   }
 
   h3 {
     font-size: 26px;
     font-weight: 900;
-    line-height: 0px;
   }
 
   p {
     font-size: 18px;
     font-weight: 900;
-    line-height: 0px;
   }
 
   sub {
     font-size: 16px;
     font-weight: 500;
-    line-height: 0px;
   }
 
   button {
@@ -67,7 +63,6 @@ const GlobalStyle = createGlobalStyle`
   footer sub {
     font-size: 10px;
     font-weight: 400;
-    line-height: 0px;
   }
 `;
 
