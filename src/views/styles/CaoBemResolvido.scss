@@ -1,5 +1,6 @@
 $corPrimaria: #f40;
 $corSecundaria: #535796;
+$corFundo: #ECECEB;
 
 .headerCBR {
   height: 90vh;
@@ -159,7 +160,7 @@ $corSecundaria: #535796;
 }
 
 .pqServe {
-  height: 95vh;
+  height: 100%;
   width: 100%;
   padding: 40px 0;
   background-color: $corSecundaria;
@@ -203,6 +204,52 @@ $corSecundaria: #535796;
           color: white;
           font-weight: 400;
         }
+      }
+    }
+  }
+}
+
+.depoimentoUnico {
+  height: 100%;
+  padding: 40px 0;
+  background-color: $corFundo;
+  
+  .conteudoDepoimentoUnico {
+    width: 75%;
+    margin: auto;
+
+    h2 {
+      color: $corSecundaria;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .quoteUm {
+        color: $corSecundaria;
+        align-self: flex-start;
+      }
+      
+      .quoteDois {
+        color: $corSecundaria;
+        align-self: flex-end;
+      }
+
+      img {
+        width: 75%;
+        margin: 25px 0;
+        height: auto;
+        border-radius: 8px;
+
+        
+      }
+
+      p {
+        font-weight: 400;
+        text-align: center;
       }
     }
   }

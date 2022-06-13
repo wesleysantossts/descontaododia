@@ -136,7 +136,7 @@
 }
 
 .pqServe {
-  height: 95vh;
+  height: 100%;
   width: 100%;
   padding: 40px 0;
   background-color: #535796;
@@ -176,6 +176,43 @@
   text-align: center;
   color: white;
   font-weight: 400;
+}
+
+.depoimentoUnico {
+  height: 100%;
+  padding: 40px 0;
+  background-color: #ECECEB;
+}
+.depoimentoUnico .conteudoDepoimentoUnico {
+  width: 75%;
+  margin: auto;
+}
+.depoimentoUnico .conteudoDepoimentoUnico h2 {
+  color: #535796;
+}
+.depoimentoUnico .conteudoDepoimentoUnico div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.depoimentoUnico .conteudoDepoimentoUnico div .quoteUm {
+  color: #535796;
+  align-self: flex-start;
+}
+.depoimentoUnico .conteudoDepoimentoUnico div .quoteDois {
+  color: #535796;
+  align-self: flex-end;
+}
+.depoimentoUnico .conteudoDepoimentoUnico div img {
+  width: 75%;
+  margin: 25px 0;
+  height: auto;
+  border-radius: 8px;
+}
+.depoimentoUnico .conteudoDepoimentoUnico div p {
+  font-weight: 400;
+  text-align: center;
 }
 
 #whatsapp {
