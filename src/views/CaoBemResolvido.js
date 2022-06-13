@@ -16,7 +16,7 @@ export default function CaoBemResolvido(){
         <title>Cão Bem Resolvido</title>
         {/* Até 120 caracteres */}
         <meta name="description" content="Adestre seu cachorro hoje!" />
-        <link rel="icon" href="%PUBLIC_URL%/iconCaoBemResolvido.png" />
+        <link rel="icon" type="image/png" href="./iconCaoBemResolvido.png" />
         <link rel="canonical" href="https://descontaododia.store/caobemresolvido" />
       </Helmet>
       <header className="headerCBR">
