@@ -1,9 +1,12 @@
 import "./styles/CaoBemResolvido.css";
-import {FaWhatsapp} from "react-icons/fa";
 import {Helmet} from "react-helmet";
 
 import {Depoimentos} from "../components/CaoBemResolvido.js";
 
+import {FaWhatsapp, FaLightbulb} from "react-icons/fa";
+import {BiHomeHeart} from "react-icons/bi";
+import {MdOutlinePets} from "react-icons/md";
+import {GiLoveInjection} from "react-icons/gi";
 import depo1 from "./styles/assets/img/depoimento1.png";
 import depo2 from "./styles/assets/img/depoimento2.png";
 import depo3 from "./styles/assets/img/depoimento3.png";
@@ -16,7 +19,7 @@ export default function CaoBemResolvido(){
         <title>Cão Bem Resolvido</title>
         {/* Até 120 caracteres */}
         <meta name="description" content="Adestre seu cachorro hoje!" />
-        <link rel="icon" href="%PUBLIC_URL%/iconCaoBemResolvido.png" />
+        <link rel="icon" type="image/png" href="iconCaoBemResolvido.png" sizes="16x16" />
         <link rel="canonical" href="https://descontaododia.store/caobemresolvido" />
       </Helmet>
       <header className="headerCBR">
@@ -69,6 +72,25 @@ export default function CaoBemResolvido(){
           <section className="pqServe">
             <div className="conteudoPqServe">
               <h2>Esse treinamento serve para mim?</h2>
+              <p>Esse treinamento serve para <strong>todos que querem ter uma convivência feliz com os seus pets e ter mais tempo para brincar com eles ao invés de brigar</strong>.</p>
+              <div className="gridPqServe">
+                <div>
+                  <BiHomeHeart size={80} />
+                  <p>Apaixonados e mega apaixonados por cães</p>
+                </div>
+                <div>
+                  <MdOutlinePets size={80} />
+                  <p>Tutores de primeira viagem</p>
+                </div>
+                <div>
+                  <FaLightbulb size={80} />
+                  <p>Tutores com experiência e adestradores</p>
+                </div>
+                <div>
+                  <GiLoveInjection size={80} />
+                  <p>Estudantes e médicos veterinários</p>
+                </div>
+              </div>
             </div>
           </section>
           <section className="modulos"></section>

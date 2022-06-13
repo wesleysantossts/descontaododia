@@ -135,6 +135,49 @@
   margin: 10px 0;
 }
 
+.pqServe {
+  height: 95vh;
+  width: 100%;
+  padding: 40px 0;
+  background-color: #535796;
+}
+.pqServe .conteudoPqServe {
+  width: 75%;
+  margin: auto;
+}
+.pqServe .conteudoPqServe h2 {
+  line-height: 1em;
+  text-align: center;
+  color: white;
+}
+.pqServe .conteudoPqServe p {
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+.pqServe .conteudoPqServe .gridPqServe {
+  height: 60vh;
+  display: grid;
+  grid-template: 45% 45%/auto auto;
+  grid-gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.pqServe .conteudoPqServe .gridPqServe div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pqServe .conteudoPqServe .gridPqServe div svg {
+  color: white;
+}
+.pqServe .conteudoPqServe .gridPqServe div p {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
+
 #whatsapp {
   background-color: #26CC64;
   position: fixed;
