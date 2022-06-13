@@ -22,6 +22,7 @@ export default function CaoBemResolvido(){
         {/* Até 120 caracteres */}
         <meta name="description" content="Adestre seu cachorro hoje!" />
         <link rel="icon" type="image/png" href="iconCaoBemResolvido.png" sizes="16x16" />
+        <link rel="apple-touch-icon" href="iconCaoBemResolvido.png" sizes="16x16" />
         <link rel="canonical" href="https://descontaododia.store/caobemresolvido" />
       </Helmet>
       <header className="headerCBR">
