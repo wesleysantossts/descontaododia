@@ -1,5 +1,6 @@
 import "./styles/CaoBemResolvido.css";
 import {FaWhatsapp} from "react-icons/fa";
+import {Helmet} from "react-helmet";
 
 import {Depoimentos} from "../components/CaoBemResolvido.js";
 
@@ -11,6 +12,13 @@ import satisfacaoGarantida from "./styles/assets/img/satisfacaoGarantida.png";
 export default function CaoBemResolvido(){
   return(
     <>
+      <Helmet>
+        <title>Cão Bem Resolvido</title>
+        {/* Até 120 caracteres */}
+        <meta name="description" content="Adestre seu cachorro hoje!" />
+        <link rel="icon" href="%PUBLIC_URL%/iconCaoBemResolvido.png" />
+        <link rel="canonical" href="https://descontaododia.store/caobemresolvido" />
+      </Helmet>
       <header className="headerCBR">
         <div className="bgHeader">
           <div className="containerHeader">
@@ -19,7 +27,7 @@ export default function CaoBemResolvido(){
 
             <iframe src="https://www.youtube.com/embed/eHWPAgBzW4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-            <button>Quero que meu cachorro me obedeça!</button><br/><br/>
+            <button onClick={()=> window.location.assign("https://go.hotmart.com/P71561841A?ap=b082")}>Quero que meu cachorro me obedeça!</button><br/><br/>
             <sub>Acesso por apenas 12x <strong>R$29,64</strong></sub>
           </div>
         </div>
@@ -53,14 +61,14 @@ export default function CaoBemResolvido(){
               <p>Além disso eu vou te dar um <strong>suporte personalizado no meu Grupo VIP</strong>, lá eu tiro todas as dúvidas dos alunos diariamente.</p> 
               <p>Agora é com você, estou te esperando!</p>
               <div className="btnSatisfacao">
-                <button>Só 15 minutos? Eu quero!</button>
+                <button onClick={()=> window.location.assign("https://go.hotmart.com/P71561841A?ap=b082")}>Só 15 minutos? Eu quero!</button>
                 <img src={satisfacaoGarantida} alt="satisfação garantida" width="80%"/>
               </div>
             </div>
           </section>
           <section className="pqServe">
             <div className="conteudoPqServe">
-
+              <h2>Esse treinamento serve para mim?</h2>
             </div>
           </section>
           <section className="modulos"></section>
