@@ -79,7 +79,7 @@ export default function CaoBemResolvido(){
               <div className="gridPqServe">
                 <div>
                   <BiHomeHeart size={80} />
-                  <p>Apaixonados e mega apaixonados por cães</p>
+                  <p>Apaixonados por cães</p>
                 </div>
                 <div>
                   <MdOutlinePets size={80} />
