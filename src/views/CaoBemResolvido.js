@@ -73,7 +73,11 @@ export default function CaoBemResolvido(){
           </section>
           <section className="modulos"></section>
           <section className="bonus"></section>
-          <section className="resultadosDois"></section>
+          <section className="resultadosDois">
+            <div className="conteudoResultadosDois">
+              
+            </div>
+          </section>
           <section className="garantia"></section>
           <section className="futurePassing"></section>
           <section className="resultadosTres"></section>
