@@ -232,7 +232,11 @@ export default function CaoBemResolvido(){
           </section>
           <section className="resultadosDois">
             <div className="conteudoResultadosDois">
-              
+              <h2>Será que realmente funciona?<br/>Pergunte para eles...</h2>
+              <iframe src="https://www.youtube.com/embed/NfQ7jnEwB-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/7ZpBcnwJFkk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/CzWb_T01BY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p>Esses são alunos do Cão Bem Resolvido que se dedicaram e seguiram as instruções do programa. Os resultados variam para cada pessoa.</p>
             </div>
           </section>
           <section className="garantia"></section>
