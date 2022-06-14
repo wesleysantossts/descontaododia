@@ -107,7 +107,67 @@ export default function CaoBemResolvido(){
               </div>
             </div>
           </section>
-          <section className="modulos"></section>
+          <section className="modulos">
+            <div className="conteudoModulos">
+              <h2>Aqui está o que você vai receber</h2>
+              <p>Acesso online a todas as vídeo aulas sobre como adestrar seu pet e não ter mais dor de cabeça por causa das malcriações dele.</p>
+              <div className="accordionModulos">
+                <div className="tabs">
+                  
+                  <div className="tab">
+                    <input type="checkbox" id="chck1"/>
+                    <label className="tab-label" for="chck1">Módulo 01 - Alimentação</label>
+                    <div className="tab-conteudo">
+                      <p>A alimentação influencia diretamente na ansiedade e no xixi e cocô do seu cachorro. Nesse módulo você vai saber como alimentar o seu cão da maneira correta.</p>
+                    </div>
+                  </div>
+                  <div className="tab">
+                    <input type="checkbox" id="chck2"/>
+                    <label className="tab-label" for="chck2">Módulo 02 - Ansiedade e Agitação em Excesso</label>
+                    <div className="tab-conteudo">
+                      <p>Nesse módulo você vai aprender como controlar a ansiedade e agitação do seu cachorro e deixá-lo calmo e tranquilo a maior parte do tempo na sua casa.</p>
+                    </div>
+                  </div>
+                  <div className="tab">
+                    <input type="checkbox" id="chck3"/>
+                    <label className="tab-label" for="chck3">Módulo 03 - Mordidas e Roer móveis</label>
+                    <div className="tab-conteudo">
+                      <p>Nesse módulo eu mostro na prática exercícios para você finalmente fazer o seu cachorro entender que ele não pode ficar te mordendo e além disso mostrar o que ele pode morder.</p>
+                    </div>
+                  </div>
+                  <div className="tab">
+                    <input type="checkbox" id="chck4"/>
+                    <label className="tab-label" for="chck4">Módulo 04 - Independência</label>
+                    <div className="tab-conteudo">
+                      <p>Nesse módulo você vai aprender como deixar o seu cachorro independente. Ele finalmente vai parar de ficar chorando quando você não está perto, vai saber dormir sozinho e ficar bem sozinho ao longo do dia.</p>
+                    </div>
+                  </div>
+                  <div className="tab">
+                    <input type="checkbox" id="chck5"/>
+                    <label className="tab-label" for="chck5">Módulo 05 - Xixi e Cocô</label>
+                    <div className="tab-conteudo">
+                      <p>Aqui você vai aprender TUDO sobre como resolver o xixi e cocô do seu cachorro. Ele finalmente vai parar de errar e vai fazer em um só lugar.</p>
+                    </div>
+                  </div>
+                  <div className="tab">
+                    <input type="checkbox" id="chck6"/>
+                    <label className="tab-label" for="chck6">Módulo 06 - Obediência Básica à Avançada</label>
+                    <div className="tab-conteudo">
+                      <p>Seu cachorro vai aprender todos os comandos importantes, do básico ao avançado e vai te obedecer sempre que você mandar.</p>
+                    </div>
+                  </div>
+                  <div className="tab">
+                    <input type="checkbox" id="chck7"/>
+                    <label className="tab-label" for="chck7">Módulo 07 - Ensinando Boas Maneiras</label>
+                    <div className="tab-conteudo">
+                      <p>Nesse módulo você vai aprender como fazer o seu cachorro se comportar nas situações do dia a dia, como receber visitas, nao subir na mesa, não ficar pulando, não ficar latindo, você vai aprender TUDO isso nesse módulo.</p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </section>
           <section className="bonus"></section>
           <section className="resultadosDois">
             <div className="conteudoResultadosDois">
@@ -117,12 +177,28 @@ export default function CaoBemResolvido(){
           <section className="garantia"></section>
           <section className="futurePassing"></section>
           <section className="resultadosTres"></section>
-          <section className="midia"></section>
+          {/* <section className="midia"></section> */}
           <section className="cta"></section>
           <section className="faq"></section>
         </div>
-        <a id="whatsapp" href="https://wa.me/message/ESYSX4KPAHWXH1" rel="noreferrer" target="_blank"><FaWhatsapp size={"70%"}/></a>
+        <a id="whatsapp" href="https://api.whatsapp.com/send?phone=5513988135562&text=Ol%C3%A1!%20Gostaria%20de%20esclarecer%20minhas%20d%C3%BAvidas%20sobre%20o%20curso%20C%C3%A3o%20Bem%20Resolvido." rel="noreferrer" target="_blank"><FaWhatsapp size={"70%"}/></a>
       </main>
+      <footer>
+        <div>
+          <h2>Ainda tem dúvidas?</h2>
+          <p>Me manda uma mensagem no Whatsapp que eu vou tirar qualquer dúvida que você tenha.</p>
+          <a href="https://api.whatsapp.com/send?phone=5513988135562&text=Ol%C3%A1!%20Gostaria%20de%20esclarecer%20minhas%20d%C3%BAvidas%20sobre%20o%20curso%20C%C3%A3o%20Bem%20Resolvido." rel="noreferrer" target="_blank">
+            <FaWhatsapp size={35}/>
+            <span>Falar comigo no Whatsapp</span>
+          </a>
+          <p>Descontão do Dia ©2022 – Todos os Direitos Reservados!</p>
+          <p>
+            Este site não faz parte do site do Facebook ou do Facebook Inc. Além disso, este site não é endossado pelo Facebook de qualquer maneira. FACEBOOK é uma marca comercial de FACEBOOK, Inc.
+
+            Aviso: Qualquer menção ou informação referente a valores citada neste site e de seus produtos e serviços são somente ilustrativas não devem ser consideradas promessa de resultado ou ganho comum, exato ou promessa de renda no futuro. As dicas e sugestões das aulas contidas no site não garantem qualquer tipo de resultados, uma vez que isso depende exclusivamente do trabalho e dedicação individual de cada um. Todas as informações dos visitantes, como nome e e-mail são protegidas, e não serão compartilhadas, divulgadas, ou vendidas para terceiros. Ao se registrar nesse site, o usuário cadastrado poderá receber outras promoções de cursos sobre marketing digital, empreendedorismo e negócios.
+          </p>
+        </div>
+      </footer>
     </>
   )
 }
