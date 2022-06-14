@@ -180,7 +180,79 @@ export default function CaoBemResolvido(){
           <section className="resultadosTres"></section>
           {/* <section className="midia"></section> */}
           <section className="cta"></section>
-          <section className="faq"></section>
+          <section className="faq">
+          <div className="conteudoFaq">
+              <h2>Perguntas Frequentes</h2>
+              <p>Algumas das dúvidas que surgiram de nossos clientes antes de efetuarem a compra.</p>
+              <div className="accordionFaq">
+                <div className="tabs">
+                  
+                  <div className="tab">
+                    <input type="checkbox" id="chckFaq1"/>
+                    <label className="tab-label" for="chckFaq1">Por quanto tempo o curso fica disponível?</label>
+                    <div className="tab-conteudo">
+                      <p>O acesso do curso é vitalício. Você vai poder ver e rever o curso quantas vezes quiser.</p>
+                    </div>
+                  </div>
+                  <div className="tab">
+                    <input type="checkbox" id="chckFaq2"/>
+                    <label className="tab-label" for="chckFaq2">Para quem é o curso?</label>
+                    <div className="tab-conteudo">
+                      <p>O curso é para tutores de cães que estão passando por problemas com o comportamento dos seus cães e querem resolver de forma rápida e prática.</p>
+                    </div>
+                  </div>
+                  <div className="tab">
+                    <input type="checkbox" id="chckFaq3"/>
+                    <label className="tab-label" for="chckFaq3">Quais problemas o curso resolve?</label>
+                    <div className="tab-conteudo">
+                      <p>
+                        Se você passa por problemas com o seu cão de: <br/><br/>
+                        - Xixi e cocô nos lugares errados <br/>
+                        - Problemas com passeio <br/>
+                        - Ansiedade por separação <br/>
+                        - Alimentação <br/>
+                        - Agitação em excesso <br/> 
+                        - Mordidas e destruição das coisas <br/>
+                        - Falta de socialização <br/>
+                        - Desobediência de forma geral <br/><br/>
+                        O curso vai te ajudar muito! 
+                      </p>
+                    </div>
+                  </div>
+                  <div className="tab">
+                    <input type="checkbox" id="chckFaq4"/>
+                    <label className="tab-label" for="chckFaq4">O curso oferece suporte?</label>
+                    <div className="tab-conteudo">
+                      <p>Assim que a compra for aprovada você vai receber acesso ao meu grupo VIP lá eu tiro as dúvidas de todos os alunos todos os dias.</p>
+                    </div>
+                  </div>
+                  <div className="tab">
+                    <input type="checkbox" id="chckFaq5"/>
+                    <label className="tab-label" for="chckFaq5">E se o curso não me ajudar por algum motivo?</label>
+                    <div className="tab-conteudo">
+                      <p>Caso o curso não te ajude por qualquer motivo que for basta você me mandar uma única mensagem dentro do período de 7 dias e devolvo o seu dinheiro.</p>
+                    </div>
+                  </div>
+                  <div className="tab">
+                    <input type="checkbox" id="chckFaq6"/>
+                    <label className="tab-label" for="chckFaq6">Em quanto tempo consigo adestrar o meu cão com seu curso?</label>
+                    <div className="tab-conteudo">
+                      <p>Se você seguir todo passo a passo, em 14 dias você vai ter excelentes resultados com o seu cão!</p>
+                    </div>
+                  </div>
+                  <div className="tab">
+                    <input type="checkbox" id="chckFaq7"/>
+                    <label className="tab-label" for="chckFaq7">O curso também serve para cães Adultos?</label>
+                    <div className="tab-conteudo">
+                      <p>Com certeza! O curso serve para cães filhotes, adultos e até mesmo idosos. Tenho cães no curso com 12 anos de idade que conseguiram ser adestrados com meu método!</p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <p>Caso você tenha alguma dúvida que não esteja aqui me chame no Whatsapp pelo botão no lado esquerdo da página ou pelo botão no final da página.</p>
+            </div>
+          </section>
         </div>
         <a id="whatsapp" href="https://api.whatsapp.com/send?phone=5513988135562&text=Ol%C3%A1!%20Gostaria%20de%20esclarecer%20minhas%20d%C3%BAvidas%20sobre%20o%20curso%20C%C3%A3o%20Bem%20Resolvido." rel="noreferrer" target="_blank"><FaWhatsapp size={"70%"}/></a>
       </main>
