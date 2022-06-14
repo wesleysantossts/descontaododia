@@ -50,7 +50,7 @@
   color: white;
   border: none;
   border-radius: 14px;
-  width: 80%;
+  width: 100%;
 }
 
 .resultadosUm {
@@ -333,6 +333,9 @@
   align-items: center;
 }
 .bonusUm .conteudoBonus .btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 5px 8px;
   margin: 20px 0;
   text-align: center;
@@ -343,7 +346,7 @@
   border: none;
   border-radius: 14px;
   height: 60px;
-  width: 80%;
+  width: 100%;
 }
 .bonusUm .conteudoBonus .btn p {
   font-size: 0.9em;
@@ -409,7 +412,7 @@
   border: none;
   border-radius: 14px;
   height: 60px;
-  width: 80%;
+  width: 100%;
 }
 .bonusDois .conteudoBonusDois .btn p {
   font-weight: normal;
@@ -437,6 +440,58 @@
   font-weight: normal;
   font-size: 0.9em;
   text-align: center;
+}
+
+.garantia {
+  height: 100%;
+  padding: 40px 0;
+  background-color: #ECECEB;
+}
+.garantia .conteudoGarantia {
+  width: 75%;
+  margin: auto;
+}
+.garantia .conteudoGarantia:not(.btn) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.garantia .conteudoGarantia h2 {
+  color: #535796;
+}
+.garantia .conteudoGarantia img {
+  width: 65%;
+}
+.garantia .conteudoGarantia p {
+  font-weight: normal;
+  text-align: center;
+}
+.garantia .conteudoGarantia .btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.garantia .conteudoGarantia .btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 8px;
+  margin: 20px 0;
+  text-align: center;
+  line-height: 22px;
+  background-color: #f40;
+  box-shadow: 0 8px 1px #cc3600;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  height: 60px;
+  width: 100%;
+}
+.garantia .conteudoGarantia .btn p {
+  font-weight: normal;
+  font-size: 0.9em;
 }
 
 .faq {
