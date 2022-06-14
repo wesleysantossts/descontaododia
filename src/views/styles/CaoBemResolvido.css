@@ -416,6 +416,29 @@
   font-size: 0.9em;
 }
 
+.resultadosDois {
+  height: 100%;
+  padding: 40px 0;
+}
+.resultadosDois .conteudoResultadosDois {
+  width: 75%;
+  margin: auto;
+}
+.resultadosDois .conteudoResultadosDois h2 {
+  color: #535796;
+}
+.resultadosDois .conteudoResultadosDois iframe {
+  width: 100%;
+  min-height: 35vh;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+.resultadosDois .conteudoResultadosDois p {
+  font-weight: normal;
+  font-size: 0.9em;
+  text-align: center;
+}
+
 .faq {
   height: 100%;
   padding: 40px 0;

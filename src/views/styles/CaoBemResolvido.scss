@@ -497,6 +497,33 @@ $corFundo: #ECECEB;
   }
 }
 
+.resultadosDois {
+  height: 100%;
+  padding: 40px 0;
+  
+  .conteudoResultadosDois {
+    width: 75%;
+    margin: auto;
+
+    h2 {
+      color: $corSecundaria;
+    }
+
+    iframe {
+      width: 100%;
+      min-height: 35vh;
+      border-radius: 8px;
+      margin: 10px 0;
+    }
+
+    p {
+      font-weight: normal;
+      font-size: .9em;
+      text-align: center;
+    }
+  }
+}
+
 .faq {
   height: 100%;
   padding: 40px 0;
