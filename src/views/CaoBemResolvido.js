@@ -13,6 +13,7 @@ import depo2 from "./styles/assets/img/depoimento2.png";
 import depo3 from "./styles/assets/img/depoimento3.png";
 import depo4 from "./styles/assets/img/depoimento4.jpeg";
 import dog1 from "./styles/assets/img/dog1.png";
+import garantiaDias from "./styles/assets/img/garantiaDias.png";
 import satisfacaoGarantida from "./styles/assets/img/satisfacaoGarantida.png";
 
 export default function CaoBemResolvido(){
@@ -175,9 +176,9 @@ export default function CaoBemResolvido(){
 
               <h2>E ainda...<br/>O apoio que você precisa para se manter motivado(a)</h2>
               <div>
-                <h3><BiStar size={30}/> Acesso ao grupo VIP</h3>
+                <h3><BiStar size={30}/>Acesso ao grupo VIP</h3>
                 <p>Você vai tirar todas as dúvidas do seu Cão diretamente comigo! Eu tiro as dúvidas de todos os alunos todos os dias no grupo, mando áudios, vídeos e todos interagem entre si. Eu faço treinos personalizados para os alunos no Grupo VIP.</p>
-                <h3><BiStar size={30}/> Acesso ao Close Friends</h3>
+                <h3><BiStar size={30}/>Close Friends</h3>
                 <p>No meu Close Friends do Instagram você vai ter acesso a dicas diárias exclusivas sobre problemas comportamentais dos cães e aprender técnicas de adestramento que utilizo no dia a dia.</p>
               </div>
               <div className="btn">
@@ -239,7 +240,25 @@ export default function CaoBemResolvido(){
               <p>Esses são alunos do Cão Bem Resolvido que se dedicaram e seguiram as instruções do programa. Os resultados variam para cada pessoa.</p>
             </div>
           </section>
-          <section className="garantia"></section>
+          <section className="garantia">
+            <div className="conteudoGarantia">
+              <h2>Experimente por 7 dias<br/>Você não tem nada a perder</h2>
+              <img src={garantiaDias} alt="Descontão do Dia - garantia do curso Cão Bem Resolvido" />
+              <p>
+                Não tem dúvida, o Cão Bem Resolvido simplesmente funciona. A prova disso são as <strong>centenas de homens e mulheres com resultados incríveis</strong> e que tiveram suas vidas e de seus bichinhos transformadas. Mas se você ainda tem dúvida, vou permitir que você <strong>experimente por 7 dias</strong> e caso você não goste ou não veja nenhum resultado, basta me enviar um e-mail durante esse período que devolvo todo o valor que você pagou.
+              </p>
+              <p>
+                Ou seja, se der certo, você consegue ter uma convivência tranquila com o seu cochorrinho e vão passar a aproveitar mais os momentos juntos. E se não gostar, você tem o seu dinheiro de volta.
+              </p>
+              <p>
+                O único risco que você corre é de estar daqui a 14 dias aproveitando sem estresse a convivência com seu melhor amigo. Simples assim!
+              </p>
+              <div className="btn">
+                <a href="https://go.hotmart.com/P71561841A?ap=b082">Quero testar por 7 dias</a>
+                <p>Acesso 100% online e vitalício por apenas 12x <strong>R$29,64</strong></p>
+              </div>
+            </div>
+          </section>
           <section className="futurePassing"></section>
           <section className="resultadosTres"></section>
           {/* <section className="midia"></section> */}

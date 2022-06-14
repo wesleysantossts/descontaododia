@@ -59,7 +59,7 @@ $corFundo: #ECECEB;
       color: white;
       border: none;
       border-radius: 14px;
-      width: 80%;
+      width: 100%;
     }
   }
 }
@@ -398,6 +398,9 @@ $corFundo: #ECECEB;
       align-items: center;
 
       a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         padding: 5px 8px;
         margin: 20px 0;
         text-align: center;
@@ -408,7 +411,7 @@ $corFundo: #ECECEB;
         border: none;
         border-radius: 14px;
         height: 60px;
-        width: 80%;
+        width: 100%;
       }
 
       p {
@@ -486,7 +489,7 @@ $corFundo: #ECECEB;
         border: none;
         border-radius: 14px;
         height: 60px;
-        width: 80%;
+        width: 100%;
       }
 
       p {
@@ -520,6 +523,66 @@ $corFundo: #ECECEB;
       font-weight: normal;
       font-size: .9em;
       text-align: center;
+    }
+  }
+}
+
+.garantia {
+  height: 100%;
+  padding: 40px 0;
+  background-color: $corFundo;
+
+  .conteudoGarantia {
+    width: 75%;
+    margin: auto;
+
+    &:not(.btn) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h2 {
+      color: $corSecundaria;
+    }
+
+    img {
+      width: 65%;
+    }
+
+    p {
+      font-weight: normal;
+      text-align: center;
+    }
+
+    .btn {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 8px;
+        margin: 20px 0;
+        text-align: center;
+        line-height: 22px;
+        background-color: $corPrimaria;
+        box-shadow: 0 8px 1px darken($corPrimaria, 10%);
+        color: white;
+        border: none;
+        border-radius: 14px;
+        height: 60px;
+        width: 100%;
+      }
+
+      p {
+        font-weight: normal;
+        font-size: .9em;
+      }
     }
   }
 }

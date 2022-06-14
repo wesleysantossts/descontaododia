@@ -38,7 +38,8 @@ const GlobalStyle = createGlobalStyle`
 
   p {
     font-size: 18px;
-    font-weight: 900;
+    font-weight: normal;
+    line-height: 1.5em;
     color: gray;
   }
 
