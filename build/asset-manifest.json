@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.84006408.css",
-    "main.js": "/static/js/main.b1470c3c.js",
+    "main.css": "/static/css/main.f26c678d.css",
+    "main.js": "/static/js/main.a01985b9.js",
     "static/media/depoimento2.png": "/static/media/depoimento2.b572beb9dfd840601db1.png",
     "static/media/depoimento1.png": "/static/media/depoimento1.fa50fb13683102489ab7.png",
     "static/media/depoimento3.png": "/static/media/depoimento3.1b39875d58274c76b447.png",
     "static/media/depoimento4.jpeg": "/static/media/depoimento4.c0a07f10029c72a8e045.jpeg",
     "static/media/header1.jfif": "/static/media/header1.665e1a6b57394235c154.jfif",
+    "static/media/produtor.jpg": "/static/media/produtor.ee1f6f5b247b2a606f91.jpg",
     "static/media/garantiaDias.png": "/static/media/garantiaDias.6971250186491051d047.png",
     "static/media/dog1.png": "/static/media/dog1.f351e04ac2a141157d65.png",
     "static/media/patas.jfif": "/static/media/patas.ad5efd3b842ffbec44bd.jfif",
     "index.html": "/index.html",
-    "main.84006408.css.map": "/static/css/main.84006408.css.map",
-    "main.b1470c3c.js.map": "/static/js/main.b1470c3c.js.map"
+    "main.f26c678d.css.map": "/static/css/main.f26c678d.css.map",
+    "main.a01985b9.js.map": "/static/js/main.a01985b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.84006408.css",
-    "static/js/main.b1470c3c.js"
+    "static/css/main.f26c678d.css",
+    "static/js/main.a01985b9.js"
   ]
 }

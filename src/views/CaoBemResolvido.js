@@ -15,6 +15,7 @@ import depo4 from "./styles/assets/img/depoimento4.jpeg";
 import dog1 from "./styles/assets/img/dog1.png";
 import garantiaDias from "./styles/assets/img/garantiaDias.png";
 import satisfacaoGarantida from "./styles/assets/img/satisfacaoGarantida.png";
+import produtor from "./styles/assets/img/produtor.jpg";
 
 export default function CaoBemResolvido(){
   return(
@@ -257,6 +258,17 @@ export default function CaoBemResolvido(){
                 <a href="https://go.hotmart.com/P71561841A?ap=b082">Quero testar por 7 dias</a>
                 <p>Acesso 100% online e vitalício por apenas 12x <strong>R$29,64</strong></p>
               </div>
+            </div>
+          </section>
+          <section className="autor">
+            <div className="conteudoAutor">
+              <h2>Bernardo Repsold</h2>
+              <div></div>
+              <p>Meu nome é Bernardo Repsold, conhecido nas redes sociais como Bernardo Adestra. Eu sou Médico Veterinário e trabalho com adestramento de cães a mais de 5 anos.</p>
+              <p>Em todos esses anos trabalhando com cães já adestrei mais de 1000 cães e ajudei milhares de famílias a terem mais qualidade de vida com os seus cães.</p>
+              <p>Foram muitos anos de estudo, muitos erros e acertos até eu chegar aonde cheguei e desenvolver o meu curso online Cão Bem Resolvido, focado em resultados rápidos, no qual eu consigo adestrar cães a ficarem super educados em até 14 dias! Minha missão é te mostrar mesmo que você não saiba nada sobre cachorro, que nunca tenha tido um ou até mesmo não tenha muito tempo para o seu cão, que é possível ter um cachorro perfeito!</p>
+              <p>Eu vou estar com você durante todo esse processo!</p>
+              <img src={produtor} alt="Descontão do Dia - Bernardo Repsold, adestrador do curso Cão Bem Resolvido" />
             </div>
           </section>
           <section className="futurePassing"></section>
