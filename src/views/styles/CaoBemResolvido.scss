@@ -53,14 +53,13 @@ $corFundo: #ECECEB;
 
     button {
       padding: 12px 5px;
-      font-size: 22px;
       line-height: 1em;
       background-color: $corPrimaria;
       box-shadow: 0 8px 1px darken($corPrimaria, 10%);
       color: white;
       border: none;
       border-radius: 14px;
-      width: 100%;
+      width: 80%;
     }
   }
 }
@@ -142,7 +141,6 @@ $corFundo: #ECECEB;
 
       button {
         padding: 5px 8px;
-        font-size: 22px;
         line-height: 22px;
         background-color: $corPrimaria;
         box-shadow: 0 8px 1px darken($corPrimaria, 10%);
@@ -152,8 +150,13 @@ $corFundo: #ECECEB;
         height: 60px;
         width: 100%;
       }
+
+      p {
+        font-size: .9em;
+      }
   
       img {
+        width: 80%;
         margin: 10px 0;
       }
     }
@@ -349,6 +352,146 @@ $corFundo: #ECECEB;
             }
           }
         }
+      }
+    }
+  }
+}
+
+.bonusUm {
+  height: 100%;
+  padding: 40px 0;
+  background-color: $corSecundaria;
+
+  .conteudoBonus {
+    width: 75%;
+    margin: auto;
+
+    h2 {
+      color: white;
+      margin-bottom: 40px;
+    }
+
+    div {
+      h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-weight: 700;
+
+        svg {
+          margin-right: 10px;
+        }
+      }
+
+      p {
+        color: white;
+        font-weight: 400;
+        text-align: center;
+      }
+    }
+
+    .btn {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      a {
+        padding: 5px 8px;
+        margin: 20px 0;
+        text-align: center;
+        line-height: 22px;
+        background-color: $corPrimaria;
+        box-shadow: 0 8px 1px darken($corPrimaria, 10%);
+        color: white;
+        border: none;
+        border-radius: 14px;
+        height: 60px;
+        width: 80%;
+      }
+
+      p {
+        font-size: .9em;
+      }
+    }
+  }
+  
+  img {
+    width: 100%;
+    position: relative;
+    bottom: -44px;
+    right: center;
+  }
+  
+}
+
+.bonusDois {
+  height: 100%;
+  padding: 40px 0;
+  background-color: $corFundo;
+
+  .conteudoBonusDois {
+    width: 75%;
+    margin: auto;
+
+    h2 {
+      color: $corPrimaria;
+    }
+
+    .gridBonusDois {
+      display: flex;
+      flex-direction: column;
+      
+      div {
+        justify-content: center;
+        align-items: center;
+        
+        h3 {
+          color: $corPrimaria;
+          text-align: center;
+          font-size: 62px;
+          line-height: 20px;
+        }
+
+        h4 {
+          text-align: center;
+          font-size: 1.2em;
+        }
+
+        p {
+          font-weight: normal;
+          text-align: center;
+        }
+      }
+    }
+
+    .btn {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 8px;
+        margin: 20px 0;
+        text-align: center;
+        line-height: 22px;
+        background-color: $corPrimaria;
+        box-shadow: 0 8px 1px darken($corPrimaria, 10%);
+        color: white;
+        border: none;
+        border-radius: 14px;
+        height: 60px;
+        width: 80%;
+      }
+
+      p {
+        font-weight: normal;
+        font-size: .9em;
       }
     }
   }

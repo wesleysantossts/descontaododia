@@ -31,6 +31,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   h3 {
+    text-align: center;
     font-size: 26px;
     font-weight: 900;
   }
@@ -48,7 +49,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   button {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 17px;
     text-decoration: none;
@@ -56,6 +57,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   a {
+    font-size: 16px;
+    font-weight: bold;
     text-decoration: none;
     cursor: pointer;
   }

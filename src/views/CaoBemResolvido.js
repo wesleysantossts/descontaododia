@@ -4,7 +4,7 @@ import {Helmet} from "react-helmet";
 import {Depoimentos} from "../components/CaoBemResolvido.js";
 
 import {FaWhatsapp, FaLightbulb} from "react-icons/fa";
-import {BiHomeHeart} from "react-icons/bi";
+import {BiHomeHeart, BiStar} from "react-icons/bi";
 import {MdOutlinePets} from "react-icons/md";
 import {GiLoveInjection} from "react-icons/gi";
 import {ImQuotesLeft, ImQuotesRight} from "react-icons/im";
@@ -12,6 +12,7 @@ import depo1 from "./styles/assets/img/depoimento1.png";
 import depo2 from "./styles/assets/img/depoimento2.png";
 import depo3 from "./styles/assets/img/depoimento3.png";
 import depo4 from "./styles/assets/img/depoimento4.jpeg";
+import dog1 from "./styles/assets/img/dog1.png";
 import satisfacaoGarantida from "./styles/assets/img/satisfacaoGarantida.png";
 
 export default function CaoBemResolvido(){
@@ -28,7 +29,7 @@ export default function CaoBemResolvido(){
       <header className="headerCBR">
         <div className="bgHeader">
           <div className="containerHeader">
-            <h1>DESCUBRA COMO ADESTRAR O SEU PRÓPRIO CÃO EM ATÉ 14 DIAS</h1><br/><br/><br/>
+            <h1>Descubra como adestrar o seu próprio cão em até 14 dias</h1><br/><br/><br/>
             <p><strong>Sem brigar com ele</strong> e mesmo que você não entenda NADA de Cachorro!</p>
 
             <iframe src="https://www.youtube.com/embed/eHWPAgBzW4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -169,7 +170,66 @@ export default function CaoBemResolvido(){
               </div>
             </div>
           </section>
-          <section className="bonus"></section>
+          <section className="bonusUm">
+            <div className="conteudoBonus">
+
+              <h2>E ainda...<br/>O apoio que você precisa para se manter motivado(a)</h2>
+              <div>
+                <h3><BiStar size={30}/> Acesso ao grupo VIP</h3>
+                <p>Você vai tirar todas as dúvidas do seu Cão diretamente comigo! Eu tiro as dúvidas de todos os alunos todos os dias no grupo, mando áudios, vídeos e todos interagem entre si. Eu faço treinos personalizados para os alunos no Grupo VIP.</p>
+                <h3><BiStar size={30}/> Acesso ao Close Friends</h3>
+                <p>No meu Close Friends do Instagram você vai ter acesso a dicas diárias exclusivas sobre problemas comportamentais dos cães e aprender técnicas de adestramento que utilizo no dia a dia.</p>
+              </div>
+              <div className="btn">
+                <a href="https://go.hotmart.com/P71561841A?ap=b082">Quero cuidar do meu cachorro como ele merece</a>
+                <p>Acesso vitalício por apenas 12x <strong>R$29,64</strong></p>
+              </div>
+            </div>
+            <img src={dog1} alt="Descontão do Dia - Imagem de cachorro pequeno" />
+          </section>
+          <section className="bonusDois">
+            <div className="conteudoBonusDois">
+              <h2>E tem mais...<br/>Um programa de adestramento completo na sua casa</h2>
+              <div className="gridBonusDois">
+                <div>
+                  <h3>01</h3>
+                  <h4>Como ensinar seu cachorro a passear</h4>
+                  <p>Nesse módulo bônus você vai aprender como ensinar o seu cão a andar na coleira sem Travar ou Puxar e sem Reagir a outros cães e pessoas. Ele vai andar do seu lado sem latir pra ninguém. Mostrei todo o passo a passo na prática, com cães que nunca passearam na vida e cães que são extremamente reativos de como resolver!</p>
+                </div>
+                <div>
+                  <h3>02</h3>
+                  <h4>Como Socializar o seu Cão</h4>
+                  <p>Nesse módulo você vai aprender como socializar o seu Cão para ele ser super sociável com outros cães, outras pessoas, gatos, etc. Mostrei tudo na prática como eu faço.</p>
+                </div>
+                <div>
+                  <h3>03</h3>
+                  <h4>Ebook Cão Bem Resolvido</h4>
+                  <p>Preparei 5 ebooks exclusivos pra você. Neles você vai ter materiais exclusivos de como entreter o seu cão em casa e melhorar a qualidade de vida e bem estar dele.</p>
+                </div>
+                <div>
+                  <h3>04</h3>
+                  <h4>Certificado de Conclusão do Curso</h4>
+                  <p>Ao final do curso quando o seu cão estiver 100% Adestrado você vai receber um certificado de conclusão do Programa Cão Bem Resolvido.</p>
+                </div>
+                <div>
+                  <h3>05</h3>
+                  <h4>Tudo Sobre Alimentação Natural</h4>
+                  <p>Tudo sobre Alimentação Natural com a Médica Veterinária Nutróloga Natalia Monnerat. Ela preparou um super módulo e abordou as maiores dúvidas que as pessoas tem sobre o assunto.</p>
+                </div>
+                <div>
+                  <h3>08</h3>
+                  <h4>Tudo Sobre Adestramento de Gatos</h4>
+                  <p>Nesse módulo você vai aprender tudo sobre Adestramento de Gatos com a especialista em comportamento Felino Ilda Luana. Ela mostra como resolver os principais problemas comportamentais que os gatos apresentam.</p>
+                </div>
+              </div>
+
+              <div className="btn">
+                <a href="https://go.hotmart.com/P71561841A?ap=b082">Quero todos esses bônus agora!</a>
+                <p>Acesso vitalício por apenas 12x <strong>R$29,64</strong></p>
+                <img src={satisfacaoGarantida} alt="satisfação garantida" width="80%"/>
+              </div>
+            </div>
+          </section>
           <section className="resultadosDois">
             <div className="conteudoResultadosDois">
               
@@ -181,7 +241,7 @@ export default function CaoBemResolvido(){
           {/* <section className="midia"></section> */}
           <section className="cta"></section>
           <section className="faq">
-          <div className="conteudoFaq">
+            <div className="conteudoFaq">
               <h2>Perguntas Frequentes</h2>
               <p>Algumas das dúvidas que surgiram de nossos clientes antes de efetuarem a compra.</p>
               <div className="accordionFaq">
