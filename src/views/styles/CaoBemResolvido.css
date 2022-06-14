@@ -494,6 +494,33 @@
   font-size: 0.9em;
 }
 
+.autor {
+  height: 100%;
+  padding: 40px 0;
+  background-color: black;
+}
+.autor .conteudoAutor {
+  width: 75%;
+  margin: auto;
+}
+.autor .conteudoAutor h2 {
+  text-align: left;
+  color: white;
+}
+.autor .conteudoAutor div {
+  width: 30%;
+  height: 2px;
+  background-color: white;
+}
+.autor .conteudoAutor p {
+  color: white;
+}
+.autor .conteudoAutor img {
+  width: 100%;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
 .faq {
   height: 100%;
   padding: 40px 0;

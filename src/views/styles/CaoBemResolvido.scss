@@ -587,6 +587,38 @@ $corFundo: #ECECEB;
   }
 }
 
+.autor {
+  height: 100%;
+  padding: 40px 0;
+  background-color: black;
+
+  .conteudoAutor {
+    width: 75%;
+    margin: auto;
+
+    h2 {
+      text-align: left;
+      color: white;
+    }
+
+    div {
+      width: 30%;
+      height: 2px;
+      background-color: white;
+    }
+
+    p {
+      color: white;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 50%;
+      margin: 20px 0;
+    }
+  }
+}
+
 .faq {
   height: 100%;
   padding: 40px 0;
