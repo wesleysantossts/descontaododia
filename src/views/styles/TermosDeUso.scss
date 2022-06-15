@@ -1,0 +1,24 @@
+@import "main.scss";
+
+main {
+  width: 100%;
+
+  .conteudoTermos {
+    width: 75%;
+    margin: auto;
+  
+    h1, h2, h3 {
+      color: $corSecundaria;
+      width: 100%;
+      
+    }
+    
+    h2 {
+      font-size: 26px;
+    }
+    
+    p {
+      text-align: justify;
+    }
+  }
+}

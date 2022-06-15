@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["PoliticasDePrivacidade.scss","main.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EACA;;AAEA;EACE,OCPY;EDQZ;EACA;;AAGF;EACE;;;AAIJ","file":"PoliticasDePrivacidade.css"}
+{"version":3,"sources":["PoliticasDePrivacidade.scss","PoliticasDePrivacidade.css","main.scss"],"names":[],"mappings":"AAEA;EACE,UAAA;EACA,YAAA;EACA,eAAA;ACDF;ADGE;EACE,cEPY;EFQZ,WAAA;EACA,kBAAA;ACDJ;ADIE;EACE,mBAAA;ACFJ;;ADMA,sDAAA","file":"PoliticasDePrivacidade.css"}
