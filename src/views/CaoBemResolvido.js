@@ -3,7 +3,7 @@ import {Helmet} from "react-helmet";
 
 import {Contador} from "../components/CaoBemResolvido";
 
-import {Depoimentos} from "./styles/components/CaoBemResolvido.js";
+import {Depoimentos} from "./styles/styled-components/CaoBemResolvido.js";
 import {FaWhatsapp, FaLightbulb} from "react-icons/fa";
 import {BiHomeHeart, BiStar} from "react-icons/bi";
 import {MdOutlinePets} from "react-icons/md";
