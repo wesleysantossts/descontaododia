@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./styles/CaoBemResolvido.css";
 import { endOfToday, getTime } from "date-fns";
 
