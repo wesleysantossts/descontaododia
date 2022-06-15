@@ -1,8 +1,9 @@
 import "./styles/CaoBemResolvido.css";
 import {Helmet} from "react-helmet";
 
-import {Depoimentos} from "../components/CaoBemResolvido.js";
+import {Contador} from "../components/CaoBemResolvido";
 
+import {Depoimentos} from "./styles/components/CaoBemResolvido.js";
 import {FaWhatsapp, FaLightbulb} from "react-icons/fa";
 import {BiHomeHeart, BiStar} from "react-icons/bi";
 import {MdOutlinePets} from "react-icons/md";
@@ -134,7 +135,7 @@ export default function CaoBemResolvido(){
                   </div>
                   <div className="tab">
                     <input type="checkbox" id="chck3"/>
-                    <label className="tab-label" for="chck3">Módulo 03 - Mordidas e Roer móveis</label>
+                    <label className="tab-label" for="chck3">Módulo 03 - Mordidas e Roer Móveis</label>
                     <div className="tab-conteudo">
                       <p>Nesse módulo eu mostro na prática exercícios para você finalmente fazer o seu cachorro entender que ele não pode ficar te mordendo e além disso mostrar o que ele pode morder.</p>
                     </div>
@@ -267,14 +268,29 @@ export default function CaoBemResolvido(){
               <p>Meu nome é Bernardo Repsold, conhecido nas redes sociais como Bernardo Adestra. Eu sou Médico Veterinário e trabalho com adestramento de cães a mais de 5 anos.</p>
               <p>Em todos esses anos trabalhando com cães já adestrei mais de 1000 cães e ajudei milhares de famílias a terem mais qualidade de vida com os seus cães.</p>
               <p>Foram muitos anos de estudo, muitos erros e acertos até eu chegar aonde cheguei e desenvolver o meu curso online Cão Bem Resolvido, focado em resultados rápidos, no qual eu consigo adestrar cães a ficarem super educados em até 14 dias! Minha missão é te mostrar mesmo que você não saiba nada sobre cachorro, que nunca tenha tido um ou até mesmo não tenha muito tempo para o seu cão, que é possível ter um cachorro perfeito!</p>
-              <p>Eu vou estar com você durante todo esse processo!</p>
+              <p>Eu vou estar com você durante todo esse processo!<br/><br/><strong>Vamos fazer isso juntos!</strong></p>
               <img src={produtor} alt="Descontão do Dia - Bernardo Repsold, adestrador do curso Cão Bem Resolvido" />
             </div>
           </section>
-          <section className="futurePassing"></section>
-          <section className="resultadosTres"></section>
+          {/* <section className="futurePassing"></section> */}
+          {/* <section className="resultadosTres"></section> */}
           {/* <section className="midia"></section> */}
-          <section className="cta"></section>
+          <section className="cta">
+            <div className="conteudoCta">
+              <h2>Como você estará 14 dias a partir de hoje?</h2>
+              <p>Apenas uma pessoa que não sabe educar o seu pet e aproveitar com ele ou curtindo e brincando muito com o seu amiguinho? Centenas de mães e pais de pets de todas as idades já comprovaram que o Cão Bem Resolvido funciona, agora é a sua vez de começar. Toda GRANDE mudança começa com o primeiro passo. Vá em frente e dê o seu primeiro passo!</p>
+              <h3>Promoção por tempo limitado!</h3>
+              <div className="contador"></div>
+              <div className="btn">
+                <p>Acesso vitalício por apenas<br/>12x <strong>R$29,64</strong></p>
+                <p>Mas você tem apenas...</p>
+                <Contador/>
+                <p>para adquirir essa oferta</p>
+                <a href="https://go.hotmart.com/P71561841A?ap=b082">Quero curtir a vida com meu pet agora!</a>
+                <img src={satisfacaoGarantida} alt="satisfação garantida" width="80%"/>
+              </div>
+            </div>
+          </section>
           <section className="faq">
             <div className="conteudoFaq">
               <h2>Perguntas Frequentes</h2>
@@ -337,9 +353,16 @@ export default function CaoBemResolvido(){
                   </div>
                   <div className="tab">
                     <input type="checkbox" id="chckFaq7"/>
-                    <label className="tab-label" for="chckFaq7">O curso também serve para cães Adultos?</label>
+                    <label className="tab-label" for="chckFaq7">O curso também serve para cães adultos?</label>
                     <div className="tab-conteudo">
                       <p>Com certeza! O curso serve para cães filhotes, adultos e até mesmo idosos. Tenho cães no curso com 12 anos de idade que conseguiram ser adestrados com meu método!</p>
+                    </div>
+                  </div>
+                  <div className="tab">
+                    <input type="checkbox" id="chckFaq8"/>
+                    <label className="tab-label" for="chckFaq8">Assim que eu comprar, demora quanto tempo para eu conseguir acessar o curso?</label>
+                    <div className="tab-conteudo">
+                      <p>Assim que você finalizar a compra, você receberá o comprovante por e-mail e o seu acesso será disponibilizado logo em seguida. Se você não tiver uma conta na plataforma de cursos Hotmart, terá que fazer um cadastro rápido e gratuito para acessar o curso.</p>
                     </div>
                   </div>
 

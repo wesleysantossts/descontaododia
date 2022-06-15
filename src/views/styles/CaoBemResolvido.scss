@@ -608,6 +608,7 @@ $corFundo: #ECECEB;
     }
 
     p {
+      text-align: center;
       color: white;
     }
 
@@ -615,6 +616,70 @@ $corFundo: #ECECEB;
       width: 100%;
       border-radius: 50%;
       margin: 20px 0;
+    }
+  }
+}
+
+.cta {
+  height: 100%;
+  padding: 40px 0;
+  .conteudoCta {
+    width: 75%;
+    margin: auto;
+
+    h2 {
+      color: $corPrimaria;
+    }
+
+    h3 {
+      color: $corPrimaria;
+      margin-top: 30px;
+    }
+
+    p {
+      text-align: center;
+
+      &:nth-child(1){
+        line-height: 2.5em;
+        margin-top: -5px;
+      }
+
+      strong {
+        font-size: 2.8em;
+      }
+    }
+
+    .btn {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 8px;
+        margin: 20px 0;
+        text-align: center;
+        line-height: 22px;
+        background-color: $corPrimaria;
+        box-shadow: 0 8px 1px darken($corPrimaria, 10%);
+        color: white;
+        border: none;
+        border-radius: 14px;
+        height: 60px;
+        width: 100%;
+      }
+
+      p {
+        font-weight: normal;
+        font-size: 1.3em;
+
+        &:nth-child(2n){
+          font-size: 1.1em;
+        }
+      }
     }
   }
 }
