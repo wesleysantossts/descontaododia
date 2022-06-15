@@ -372,13 +372,13 @@ export default function CaoBemResolvido(){
             </div>
           </section>
         </div>
-        <a id="whatsapp" href="https://api.whatsapp.com/send?phone=5513988135562&text=Ol%C3%A1!%20Gostaria%20de%20esclarecer%20minhas%20d%C3%BAvidas%20sobre%20o%20curso%20C%C3%A3o%20Bem%20Resolvido." rel="noreferrer" target="_blank"><FaWhatsapp size={"70%"}/></a>
+        <a id="whatsapp" className="whatsappUm" href="https://api.whatsapp.com/send?phone=5513988135562&text=Ol%C3%A1!%20Gostaria%20de%20esclarecer%20minhas%20d%C3%BAvidas%20sobre%20o%20curso%20C%C3%A3o%20Bem%20Resolvido." rel="noreferrer" target="_blank"><FaWhatsapp size={"70%"}/></a>
       </main>
       <footer>
         <div>
           <h2>Ainda tem dúvidas?</h2>
           <p>Me manda uma mensagem no Whatsapp que eu vou tirar qualquer dúvida que você tenha.</p>
-          <a href="https://api.whatsapp.com/send?phone=5513988135562&text=Ol%C3%A1!%20Gostaria%20de%20esclarecer%20minhas%20d%C3%BAvidas%20sobre%20o%20curso%20C%C3%A3o%20Bem%20Resolvido." rel="noreferrer" target="_blank">
+          <a className="whatsappDois" href="https://api.whatsapp.com/send?phone=5513988135562&text=Ol%C3%A1!%20Gostaria%20de%20esclarecer%20minhas%20d%C3%BAvidas%20sobre%20o%20curso%20C%C3%A3o%20Bem%20Resolvido." rel="noreferrer" target="_blank">
             <FaWhatsapp size={35}/>
             <span>Falar comigo</span>
           </a>
