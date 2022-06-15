@@ -513,12 +513,68 @@
   background-color: white;
 }
 .autor .conteudoAutor p {
+  text-align: center;
   color: white;
 }
 .autor .conteudoAutor img {
   width: 100%;
   border-radius: 50%;
   margin: 20px 0;
+}
+
+.cta {
+  height: 100%;
+  padding: 40px 0;
+}
+.cta .conteudoCta {
+  width: 75%;
+  margin: auto;
+}
+.cta .conteudoCta h2 {
+  color: #f40;
+}
+.cta .conteudoCta h3 {
+  color: #f40;
+  margin-top: 30px;
+}
+.cta .conteudoCta p {
+  text-align: center;
+}
+.cta .conteudoCta p:nth-child(1) {
+  line-height: 2.5em;
+  margin-top: -5px;
+}
+.cta .conteudoCta p strong {
+  font-size: 2.8em;
+}
+.cta .conteudoCta .btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cta .conteudoCta .btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 8px;
+  margin: 20px 0;
+  text-align: center;
+  line-height: 22px;
+  background-color: #f40;
+  box-shadow: 0 8px 1px #cc3600;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  height: 60px;
+  width: 100%;
+}
+.cta .conteudoCta .btn p {
+  font-weight: normal;
+  font-size: 1.3em;
+}
+.cta .conteudoCta .btn p:nth-child(2n) {
+  font-size: 1.1em;
 }
 
 .faq {
