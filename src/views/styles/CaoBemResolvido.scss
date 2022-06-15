@@ -672,9 +672,17 @@ $corFundo: #ECECEB;
         width: 100%;
       }
 
+      img {
+        width: 100%;
+      }
+
       p {
         font-weight: normal;
         font-size: 1.3em;
+
+        &:nth-child(1){
+          margin-bottom: 2px;
+        }
 
         &:nth-child(2n){
           font-size: 1.1em;
