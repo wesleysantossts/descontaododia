@@ -3,7 +3,7 @@ $corSecundaria: #535796;
 $corFundo: #ECECEB;
 
 .headerCBR {
-  height: 90vh;
+  height: 100%;
   background-color: white;
   text-align: center;
   background-image: url("./assets/img/header1.jfif");
@@ -14,7 +14,6 @@ $corFundo: #ECECEB;
   .bgHeader {
     height: 100%;
     background-color: rgba(255,255,255, .80);
-
   }
 
   .containerHeader {
@@ -812,12 +811,13 @@ footer {
       text-align: center;
       line-height: 1.2em;
       color: white;
-
     }
 
     a {
-      display: flex;
-      justify-content: space-around;
+      display: grid;
+      grid-template: auto / 10% auto;
+      grid-gap: 15px;
+      justify-content: center;
       align-items: center;
       padding: 10px;
       margin: 30px 0;
@@ -831,8 +831,9 @@ footer {
       font-weight: bold;
 
       span {
-        font-size: .9em;
+        font-size: .8em;
         margin-left: 10px;
+        text-align: left;
       }
     }
     
@@ -842,7 +843,7 @@ footer {
       grid-gap: 5px;
       justify-content: space-around;
       align-items: center;
-      height: auto;
+      height: 50px;
       width: 100%;
       margin: 10px 0;
       
@@ -850,6 +851,7 @@ footer {
         display: flex;
         justify-content: center;
         color: white;
+        height: 30px;
         width: 100%;
         text-align: center;
         
@@ -858,6 +860,9 @@ footer {
         }
         
         a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
           color: lightskyblue;
           font-size: .7em;
           background-color: transparent;
@@ -894,5 +899,12 @@ footer {
 
   svg {
     color: white;
+  }
+}
+
+@media screen and (min-width: 600px){
+  header, main, footer {
+    width: 50%;
+    margin: auto;
   }
 }

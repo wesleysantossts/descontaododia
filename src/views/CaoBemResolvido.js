@@ -35,7 +35,7 @@ export default function CaoBemResolvido(){
             <h1>Descubra como adestrar o seu próprio cão em até 14 dias</h1><br/><br/><br/>
             <p><strong>Sem brigar com ele</strong> e mesmo que você não entenda NADA de Cachorro!</p>
 
-            <iframe src="https://www.youtube.com/embed/eHWPAgBzW4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/eHWPAgBzW4Q" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
             <button onClick={()=> window.location.assign("https://go.hotmart.com/P71561841A?ap=b082")}>Quero que meu cachorro me obedeça!</button><br/><br/>
             <p>Acesso por apenas 12x <strong>R$29,64</strong></p>
@@ -121,49 +121,49 @@ export default function CaoBemResolvido(){
                   
                   <div className="tab">
                     <input type="checkbox" id="chck1"/>
-                    <label className="tab-label" for="chck1">Módulo 01 - Alimentação</label>
+                    <label className="tab-label" htmlFor="chck1">Módulo 01 - Alimentação</label>
                     <div className="tab-conteudo">
                       <p>A alimentação influencia diretamente na ansiedade e no xixi e cocô do seu cachorro. Nesse módulo você vai saber como alimentar o seu cão da maneira correta.</p>
                     </div>
                   </div>
                   <div className="tab">
                     <input type="checkbox" id="chck2"/>
-                    <label className="tab-label" for="chck2">Módulo 02 - Ansiedade e Agitação em Excesso</label>
+                    <label className="tab-label" htmlFor="chck2">Módulo 02 - Ansiedade e Agitação em Excesso</label>
                     <div className="tab-conteudo">
                       <p>Nesse módulo você vai aprender como controlar a ansiedade e agitação do seu cachorro e deixá-lo calmo e tranquilo a maior parte do tempo na sua casa.</p>
                     </div>
                   </div>
                   <div className="tab">
                     <input type="checkbox" id="chck3"/>
-                    <label className="tab-label" for="chck3">Módulo 03 - Mordidas e Roer Móveis</label>
+                    <label className="tab-label" htmlFor="chck3">Módulo 03 - Mordidas e Roer Móveis</label>
                     <div className="tab-conteudo">
                       <p>Nesse módulo eu mostro na prática exercícios para você finalmente fazer o seu cachorro entender que ele não pode ficar te mordendo e além disso mostrar o que ele pode morder.</p>
                     </div>
                   </div>
                   <div className="tab">
                     <input type="checkbox" id="chck4"/>
-                    <label className="tab-label" for="chck4">Módulo 04 - Independência</label>
+                    <label className="tab-label" htmlFor="chck4">Módulo 04 - Independência</label>
                     <div className="tab-conteudo">
                       <p>Nesse módulo você vai aprender como deixar o seu cachorro independente. Ele finalmente vai parar de ficar chorando quando você não está perto, vai saber dormir sozinho e ficar bem sozinho ao longo do dia.</p>
                     </div>
                   </div>
                   <div className="tab">
                     <input type="checkbox" id="chck5"/>
-                    <label className="tab-label" for="chck5">Módulo 05 - Xixi e Cocô</label>
+                    <label className="tab-label" htmlFor="chck5">Módulo 05 - Xixi e Cocô</label>
                     <div className="tab-conteudo">
                       <p>Aqui você vai aprender TUDO sobre como resolver o xixi e cocô do seu cachorro. Ele finalmente vai parar de errar e vai fazer em um só lugar.</p>
                     </div>
                   </div>
                   <div className="tab">
                     <input type="checkbox" id="chck6"/>
-                    <label className="tab-label" for="chck6">Módulo 06 - Obediência Básica à Avançada</label>
+                    <label className="tab-label" htmlFor="chck6">Módulo 06 - Obediência Básica à Avançada</label>
                     <div className="tab-conteudo">
                       <p>Seu cachorro vai aprender todos os comandos importantes, do básico ao avançado e vai te obedecer sempre que você mandar.</p>
                     </div>
                   </div>
                   <div className="tab">
                     <input type="checkbox" id="chck7"/>
-                    <label className="tab-label" for="chck7">Módulo 07 - Ensinando Boas Maneiras</label>
+                    <label className="tab-label" htmlFor="chck7">Módulo 07 - Ensinando Boas Maneiras</label>
                     <div className="tab-conteudo">
                       <p>Nesse módulo você vai aprender como fazer o seu cachorro se comportar nas situações do dia a dia, como receber visitas, nao subir na mesa, não ficar pulando, não ficar latindo, você vai aprender TUDO isso nesse módulo.</p>
                     </div>
@@ -236,9 +236,9 @@ export default function CaoBemResolvido(){
           <section className="resultadosDois">
             <div className="conteudoResultadosDois">
               <h2>Será que realmente funciona?<br/>Pergunte para eles...</h2>
-              <iframe src="https://www.youtube.com/embed/NfQ7jnEwB-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <iframe src="https://www.youtube.com/embed/7ZpBcnwJFkk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/CzWb_T01BY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/NfQ7jnEwB-Y" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe src="https://www.youtube.com/embed/7ZpBcnwJFkk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/CzWb_T01BY0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               <p>Esses são alunos do Cão Bem Resolvido que se dedicaram e seguiram as instruções do programa. Os resultados variam para cada pessoa.</p>
             </div>
           </section>
@@ -300,21 +300,21 @@ export default function CaoBemResolvido(){
                   
                   <div className="tab">
                     <input type="checkbox" id="chckFaq1"/>
-                    <label className="tab-label" for="chckFaq1">Por quanto tempo o curso fica disponível?</label>
+                    <label className="tab-label" htmlFor="chckFaq1">Por quanto tempo o curso fica disponível?</label>
                     <div className="tab-conteudo">
                       <p>O acesso do curso é vitalício. Você vai poder ver e rever o curso quantas vezes quiser.</p>
                     </div>
                   </div>
                   <div className="tab">
                     <input type="checkbox" id="chckFaq2"/>
-                    <label className="tab-label" for="chckFaq2">Para quem é o curso?</label>
+                    <label className="tab-label" htmlFor="chckFaq2">Para quem é o curso?</label>
                     <div className="tab-conteudo">
                       <p>O curso é para tutores de cães que estão passando por problemas com o comportamento dos seus cães e querem resolver de forma rápida e prática.</p>
                     </div>
                   </div>
                   <div className="tab">
                     <input type="checkbox" id="chckFaq3"/>
-                    <label className="tab-label" for="chckFaq3">Quais problemas o curso resolve?</label>
+                    <label className="tab-label" htmlFor="chckFaq3">Quais problemas o curso resolve?</label>
                     <div className="tab-conteudo">
                       <p>
                         Se você passa por problemas com o seu cão de: <br/><br/>
@@ -332,35 +332,35 @@ export default function CaoBemResolvido(){
                   </div>
                   <div className="tab">
                     <input type="checkbox" id="chckFaq4"/>
-                    <label className="tab-label" for="chckFaq4">O curso oferece suporte?</label>
+                    <label className="tab-label" htmlFor="chckFaq4">O curso oferece suporte?</label>
                     <div className="tab-conteudo">
                       <p>Assim que a compra for aprovada você vai receber acesso ao meu grupo VIP lá eu tiro as dúvidas de todos os alunos todos os dias.</p>
                     </div>
                   </div>
                   <div className="tab">
                     <input type="checkbox" id="chckFaq5"/>
-                    <label className="tab-label" for="chckFaq5">E se o curso não me ajudar por algum motivo?</label>
+                    <label className="tab-label" htmlFor="chckFaq5">E se o curso não me ajudar por algum motivo?</label>
                     <div className="tab-conteudo">
                       <p>Caso o curso não te ajude por qualquer motivo que for basta você me mandar uma única mensagem dentro do período de 7 dias e devolvo o seu dinheiro.</p>
                     </div>
                   </div>
                   <div className="tab">
                     <input type="checkbox" id="chckFaq6"/>
-                    <label className="tab-label" for="chckFaq6">Em quanto tempo consigo adestrar o meu cão com seu curso?</label>
+                    <label className="tab-label" htmlFor="chckFaq6">Em quanto tempo consigo adestrar o meu cão com seu curso?</label>
                     <div className="tab-conteudo">
                       <p>Se você seguir todo passo a passo, em 14 dias você vai ter excelentes resultados com o seu cão!</p>
                     </div>
                   </div>
                   <div className="tab">
                     <input type="checkbox" id="chckFaq7"/>
-                    <label className="tab-label" for="chckFaq7">O curso também serve para cães adultos?</label>
+                    <label className="tab-label" htmlFor="chckFaq7">O curso também serve para cães adultos?</label>
                     <div className="tab-conteudo">
                       <p>Com certeza! O curso serve para cães filhotes, adultos e até mesmo idosos. Tenho cães no curso com 12 anos de idade que conseguiram ser adestrados com meu método!</p>
                     </div>
                   </div>
                   <div className="tab">
                     <input type="checkbox" id="chckFaq8"/>
-                    <label className="tab-label" for="chckFaq8">Assim que eu comprar, demora quanto tempo para eu conseguir acessar o curso?</label>
+                    <label className="tab-label" htmlFor="chckFaq8">Assim que eu comprar, demora quanto tempo para eu conseguir acessar o curso?</label>
                     <div className="tab-conteudo">
                       <p>Assim que você finalizar a compra, você receberá o comprovante por e-mail e o seu acesso será disponibilizado logo em seguida. Se você não tiver uma conta na plataforma de cursos Hotmart, terá que fazer um cadastro rápido e gratuito para acessar o curso.</p>
                     </div>
@@ -380,7 +380,7 @@ export default function CaoBemResolvido(){
           <p>Me manda uma mensagem no Whatsapp que eu vou tirar qualquer dúvida que você tenha.</p>
           <a href="https://api.whatsapp.com/send?phone=5513988135562&text=Ol%C3%A1!%20Gostaria%20de%20esclarecer%20minhas%20d%C3%BAvidas%20sobre%20o%20curso%20C%C3%A3o%20Bem%20Resolvido." rel="noreferrer" target="_blank">
             <FaWhatsapp size={35}/>
-            <span>Falar comigo no Whatsapp</span>
+            <span>Falar comigo</span>
           </a>
           <p>Descontão do Dia ©2022 – Todos os Direitos Reservados!</p>
           <div className="politicas">
