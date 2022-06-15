@@ -1,0 +1,17 @@
+main {
+  width: 100%;
+}
+main .conteudoTermos {
+  width: 75%;
+  margin: auto;
+}
+main .conteudoTermos h1, main .conteudoTermos h2, main .conteudoTermos h3 {
+  color: #535796;
+  width: 100%;
+}
+main .conteudoTermos h2 {
+  font-size: 26px;
+}
+main .conteudoTermos p {
+  text-align: justify;
+}/*# sourceMappingURL=TermosDeUso.css.map */

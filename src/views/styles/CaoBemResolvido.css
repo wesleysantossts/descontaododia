@@ -765,10 +765,17 @@ footer div .obsFacebook {
 }
 
 @media screen and (min-width: 600px) {
-  header, main, footer {
+  header, footer, section {
     width: 50%;
     margin: auto;
   }
-}
 
-/*# sourceMappingURL=CaoBemResolvido.css.map */
+  footer {
+    height: 100%;
+  }
+
+  .metodoUm, .metodoDois, .pqServe {
+    width: 50%;
+    margin: auto;
+  }
+}/*# sourceMappingURL=CaoBemResolvido.css.map */

@@ -12,7 +12,7 @@ export default function Routes(){
       <Route exact path="/" component={Home} />
       <Route exact path="/caobemresolvido" component={CaoBemResolvido} />
       <Route exact path="/politica-de-privacidade" component={PoliticaDePrivacidade} />
-      <Route exact path="/termos-de-" component={TermosDeUso} />
+      <Route exact path="/termos-de-uso" component={TermosDeUso} />
     </Switch>
   )
 }
