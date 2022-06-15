@@ -1,0 +1,17 @@
+.conteudoPoliticas {
+  width: 75%;
+  margin: auto;
+  padding: 40px 0;
+}
+.conteudoPoliticas h1, .conteudoPoliticas h2, .conteudoPoliticas h3, .conteudoPoliticas h4 {
+  color: #535796;
+  width: 100%;
+  text-align: center;
+}
+.conteudoPoliticas p {
+  text-align: justify;
+}
+
+/*# sourceMappingURL=PoliticasDePrivacidade.scss.map */
+
+/*# sourceMappingURL=PoliticasDePrivacidade.css.map */
