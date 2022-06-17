@@ -392,6 +392,11 @@
   font-weight: normal;
   text-align: center;
 }
+.bonusDois .conteudoBonusDois .gridBonusDois div p:nth-last-child(2) {
+  font-weight: bold;
+  font-size: 1.8em;
+  margin: 10px 0;
+}
 .bonusDois .conteudoBonusDois .btn {
   display: flex;
   flex-direction: column;

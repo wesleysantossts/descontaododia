@@ -464,6 +464,12 @@ $corFundo: #ECECEB;
         p {
           font-weight: normal;
           text-align: center;
+
+          &:nth-last-child(2) {
+            font-weight: bold;
+            font-size: 1.8em;
+            margin: 10px 0;
+          }
         }
       }
     }
