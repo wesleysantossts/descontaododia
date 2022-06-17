@@ -48,9 +48,9 @@ export default function CaoBemResolvido(){
             <div className="bgResultadosUm">
               <Depoimentos>
                 <h2>Donos de cães de todo Brasil já tiveram suas vidas e de seus amiguinhos transformadas</h2>
-                <img src={depo1} alt="Depoimento 1" width="60%" height="70%"/>
-                <img src={depo2} alt="Depoimento 2" width="60%" height="70%"/>
-                <img src={depo3} alt="Depoimento 3" width="60%" height="70%"/>
+                <img src={depo1} alt="Depoimento 1" width="60%" height="70%" loading="lazy"/>
+                <img src={depo2} alt="Depoimento 2" width="60%" height="70%" loading="lazy"/>
+                <img src={depo3} alt="Depoimento 3" width="60%" height="70%" loading="lazy"/>
                 <sub>Esses(as) são alunos(as) do Cão Bem Resolvido que se dedicaram e seguiram as instruções do programa. Os resultados variam para cada pessoa.</sub>
               </Depoimentos>
             </div>
@@ -106,7 +106,7 @@ export default function CaoBemResolvido(){
               <h2>Resultado que você não terá em outro lugar</h2>
               <div>
                 <ImQuotesLeft className="quoteUm" size={40}/> 
-                <img src={depo4} alt="Site Descontao do Dia - Depoimento Brunna Póvoa"/>
+                <img src={depo4} alt="Site Descontao do Dia - Depoimento Brunna Póvoa" loading="lazy"/>
                 <ImQuotesRight className="quoteDois" size={40} />
                 <p>Assim como a Brunna Póvoa, <strong>você também consegue</strong> ter o resultado desejado com o seu amiguinho.</p>
               </div>
@@ -188,7 +188,7 @@ export default function CaoBemResolvido(){
                 <p>Acesso vitalício por apenas 12x <strong>R$29,64</strong></p>
               </div>
             </div>
-            <img src={dog1} alt="Descontão do Dia - Imagem de cachorro pequeno" />
+            <img src={dog1} alt="Descontão do Dia - Imagem de cachorro pequeno" loading="lazy"/>
           </section>
           <section className="bonusDois">
             <div className="conteudoBonusDois">
