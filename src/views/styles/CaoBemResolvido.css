@@ -418,6 +418,24 @@
   font-weight: normal;
   font-size: 0.9em;
 }
+.bonusDois .conteudoBonusDois .btn p s {
+  font-size: 2em;
+  font-weight: bold;
+  color: #f40;
+}
+.bonusDois .conteudoBonusDois .btn p strong {
+  font-size: 2.8em;
+}
+.bonusDois .conteudoBonusDois .btn p:nth-child(2) {
+  font-size: 1.2em;
+  line-height: 2em;
+  margin: 5px 0;
+  text-align: center;
+}
+.bonusDois .conteudoBonusDois .btn p:nth-child(1) {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
 
 .resultadosDois {
   height: 100%;

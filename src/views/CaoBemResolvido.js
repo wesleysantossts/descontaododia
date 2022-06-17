@@ -197,39 +197,45 @@ export default function CaoBemResolvido(){
                 <div>
                   <h3>01</h3>
                   <h4>Como ensinar seu cachorro a passear</h4>
+                  <p><s>R$387</s></p>
                   <p>Nesse módulo bônus você vai aprender como ensinar o seu cão a andar na coleira sem Travar ou Puxar e sem Reagir a outros cães e pessoas. Ele vai andar do seu lado sem latir pra ninguém. Mostrei todo o passo a passo na prática, com cães que nunca passearam na vida e cães que são extremamente reativos de como resolver!</p>
                 </div>
                 <div>
                   <h3>02</h3>
                   <h4>Como Socializar o seu Cão</h4>
+                  <p><s>R$289</s></p>
                   <p>Nesse módulo você vai aprender como socializar o seu Cão para ele ser super sociável com outros cães, outras pessoas, gatos, etc. Mostrei tudo na prática como eu faço.</p>
                 </div>
                 <div>
                   <h3>03</h3>
                   <h4>Ebook Cão Bem Resolvido</h4>
+                  <p><s>R$197</s></p>
                   <p>Preparei 5 ebooks exclusivos pra você. Neles você vai ter materiais exclusivos de como entreter o seu cão em casa e melhorar a qualidade de vida e bem estar dele.</p>
                 </div>
                 <div>
                   <h3>04</h3>
                   <h4>Certificado de Conclusão do Curso</h4>
+                  <p><s>R$49</s></p>
                   <p>Ao final do curso quando o seu cão estiver 100% Adestrado você vai receber um certificado de conclusão do Programa Cão Bem Resolvido.</p>
                 </div>
                 <div>
                   <h3>05</h3>
                   <h4>Tudo Sobre Alimentação Natural</h4>
+                  <p><s>R$159</s></p>
                   <p>Tudo sobre Alimentação Natural com a Médica Veterinária Nutróloga Natalia Monnerat. Ela preparou um super módulo e abordou as maiores dúvidas que as pessoas tem sobre o assunto.</p>
                 </div>
                 <div>
-                  <h3>08</h3>
+                  <h3>06</h3>
                   <h4>Tudo Sobre Adestramento de Gatos</h4>
+                  <p><s>R$197</s></p>
                   <p>Nesse módulo você vai aprender tudo sobre Adestramento de Gatos com a especialista em comportamento Felino Ilda Luana. Ela mostra como resolver os principais problemas comportamentais que os gatos apresentam.</p>
                 </div>
               </div>
-
               <div className="btn">
+                <p>de <s>R$1.278</s></p>
+                <p>por apenas<br/>12x <strong>R$29,64</strong></p>
                 <a href="https://go.hotmart.com/P71561841A?ap=b082">Quero todos esses bônus agora!</a>
-                <p>Acesso vitalício por apenas 12x <strong>R$29,64</strong></p>
-                <img src={satisfacaoGarantida} alt="satisfação garantida" width="80%"/>
+                <img src={satisfacaoGarantida} alt="satisfação garantida" width="80%" loading="lazy"/>
               </div>
             </div>
           </section>
@@ -245,7 +251,7 @@ export default function CaoBemResolvido(){
           <section className="garantia">
             <div className="conteudoGarantia">
               <h2>Experimente por 7 dias<br/>Você não tem nada a perder</h2>
-              <img src={garantiaDias} alt="Descontão do Dia - garantia do curso Cão Bem Resolvido" />
+              <img src={garantiaDias} alt="Descontão do Dia - garantia do curso Cão Bem Resolvido" loading="lazy"/>
               <p>
                 Não tem dúvida, o Cão Bem Resolvido simplesmente funciona. A prova disso são as <strong>centenas de homens e mulheres com resultados incríveis</strong> e que tiveram suas vidas e de seus bichinhos transformadas. Mas se você ainda tem dúvida, vou permitir que você <strong>experimente por 7 dias</strong> e caso você não goste ou não veja nenhum resultado, basta me enviar um e-mail durante esse período que devolvo todo o valor que você pagou.
               </p>
@@ -269,7 +275,7 @@ export default function CaoBemResolvido(){
               <p>Em todos esses anos trabalhando com cães já adestrei mais de 1000 cães e ajudei milhares de famílias a terem mais qualidade de vida com os seus cães.</p>
               <p>Foram muitos anos de estudo, muitos erros e acertos até eu chegar aonde cheguei e desenvolver o meu curso online Cão Bem Resolvido, focado em resultados rápidos, no qual eu consigo adestrar cães a ficarem super educados em até 14 dias! Minha missão é te mostrar mesmo que você não saiba nada sobre cachorro, que nunca tenha tido um ou até mesmo não tenha muito tempo para o seu cão, que é possível ter um cachorro perfeito!</p>
               <p>Eu vou estar com você durante todo esse processo!<br/><br/><strong>Vamos fazer isso juntos!</strong></p>
-              <img src={produtor} alt="Descontão do Dia - Bernardo Repsold, adestrador do curso Cão Bem Resolvido" />
+              <img src={produtor} alt="Descontão do Dia - Bernardo Repsold, adestrador do curso Cão Bem Resolvido" loading="lazy"/>
             </div>
           </section>
           {/* <section className="futurePassing"></section> */}
@@ -287,7 +293,7 @@ export default function CaoBemResolvido(){
                 <Contador/>
                 <p>para adquirir essa oferta</p>
                 <a href="https://go.hotmart.com/P71561841A?ap=b082">Quero curtir a vida com meu pet agora!</a>
-                <img src={satisfacaoGarantida} alt="satisfação garantida" width="80%"/>
+                <img src={satisfacaoGarantida} alt="satisfação garantida" width="80%" loading="lazy"/>
               </div>
             </div>
           </section>
