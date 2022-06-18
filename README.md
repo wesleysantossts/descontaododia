@@ -16,7 +16,7 @@ Página de produto de adestramento de pets.
 
 Link: [Descontão do Dia - Cão Bem Resolvido](https://descontaododia.store/caobemresolvido?utm_source=Github)
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6944010868397326336?compact=1" height="auto" width="50%" frameborder="0" allowfullscreen="" title="Publicação incorporada"></iframe>
+<iframe src="https://youtube.com/shorts/oR9Ao19yZgY?feature=share" height="auto" width="50%" frameborder="0" allowfullscreen="" title="Publicação incorporada"></iframe>
 
 As tecnologias usadas foram ReactJS, componentização no React, styled-components, HTML, CSS e Javascript.
 
