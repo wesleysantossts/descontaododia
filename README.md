@@ -16,8 +16,9 @@ Página de produto de adestramento de pets.
 
 Link: [Descontão do Dia - Cão Bem Resolvido](https://descontaododia.store/caobemresolvido?utm_source=Github)
 
-<div align="center">
-  <img src="./src/assets/img/CaoBemResolvido.gif" width="50%" height="auto" alt="Gif da página Cão Bem Resolvido"/>
+<div align="center" style="display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 20px 0;">
+  <img src="./src/assets/img/CaoBemResolvido.gif" width="50%" height="auto" alt="Gif da página Cão Bem Resolvido" style="border-radius: 8px"/>
+  <sub style="margin-top: 8px">Vídeo: página "Cão Bem Resolvido".</sub>
 </div>
 
 
