@@ -1,10 +1,12 @@
 import "./styles/CaoBemResolvido.css";
-import {Helmet} from "react-helmet";
 
-import {Contador} from "../components/CaoBemResolvido";
+import SocialHead from "../components/SocialHead";
+import FooterProducts from "../components/products/FooterProducts";
+import {Contador} from "../components/products/CaoBemResolvido";
+import BotaoWhatsapp from "../components/features/btnWhatsapp";
 
 import {Depoimentos} from "./styles/styled-components/CaoBemResolvido.js";
-import {FaWhatsapp, FaLightbulb} from "react-icons/fa";
+import {FaLightbulb} from "react-icons/fa";
 import {BiHomeHeart, BiStar} from "react-icons/bi";
 import {MdOutlinePets} from "react-icons/md";
 import {GiLoveInjection} from "react-icons/gi";
@@ -21,14 +23,7 @@ import produtor from "./styles/assets/img/produtor.jpg";
 export default function CaoBemResolvido(){
   return(
     <>
-      <Helmet>
-        <title>Cão Bem Resolvido</title>
-        {/* Até 120 caracteres */}
-        <meta name="description" content="Adestre seu cachorro hoje!" />
-        <link rel="icon" type="image/png" href="iconCaoBemResolvido.png" sizes="16x16" />
-        <link rel="apple-touch-icon" href="iconCaoBemResolvido.png" sizes="16x16" />
-        <link rel="canonical" href="https://descontaododia.store/caobemresolvido" />
-      </Helmet>
+      <SocialHead title="Cão Bem Resolvido" description="Adestre seu cachorro hoje!" socialUrl="https://descontaododia.store/caobemresolvido" icon="iconCaoBemResolvido.png" canonical="https://descontaododia.store/caobemresolvido" />
       <header className="headerCBR">
         <div className="bgHeader">
           <div className="containerHeader">
@@ -278,9 +273,6 @@ export default function CaoBemResolvido(){
               <img src={produtor} alt="Descontão do Dia - Bernardo Repsold, adestrador do curso Cão Bem Resolvido" loading="lazy"/>
             </div>
           </section>
-          {/* <section className="futurePassing"></section> */}
-          {/* <section className="resultadosTres"></section> */}
-          {/* <section className="midia"></section> */}
           <section className="cta">
             <div className="conteudoCta">
               <h2>Como você estará 14 dias a partir de hoje?</h2>
@@ -378,29 +370,9 @@ export default function CaoBemResolvido(){
             </div>
           </section>
         </div>
-        <a id="whatsapp" className="whatsappUm" href="https://api.whatsapp.com/send?phone=5513988135562&text=Ol%C3%A1!%20Gostaria%20de%20esclarecer%20minhas%20d%C3%BAvidas%20sobre%20o%20curso%20C%C3%A3o%20Bem%20Resolvido." rel="noreferrer" target="_blank"><FaWhatsapp size={"70%"}/></a>
+        <BotaoWhatsapp linkWhatsapp="https://api.whatsapp.com/send?phone=5513988135562&text=Ol%C3%A1!%20Gostaria%20de%20esclarecer%20minhas%20d%C3%BAvidas%20sobre%20o%20curso%20C%C3%A3o%20Bem%20Resolvido."/>
       </main>
-      <footer>
-        <div>
-          <h2>Ainda tem dúvidas?</h2>
-          <p>Me manda uma mensagem no Whatsapp que eu vou tirar qualquer dúvida que você tenha.</p>
-          <a className="whatsappDois" href="https://api.whatsapp.com/send?phone=5513988135562&text=Ol%C3%A1!%20Gostaria%20de%20esclarecer%20minhas%20d%C3%BAvidas%20sobre%20o%20curso%20C%C3%A3o%20Bem%20Resolvido." rel="noreferrer" target="_blank">
-            <FaWhatsapp size={35}/>
-            <span>Falar comigo</span>
-          </a>
-          <p>Descontão do Dia ©2022 – Todos os Direitos Reservados!</p>
-          <div className="politicas">
-            <p><a href="/politica-de-privacidade">Política de Privacidade</a></p>
-            <p><a href="/termos-de-uso">Termos de Serviço</a></p>
-            <p><a href="https://api.whatsapp.com/send?phone=5513988135562&text=Ol%C3%A1!%20Gostaria%20de%20esclarecer%20minhas%20d%C3%BAvidas%20sobre%20o%20curso%20C%C3%A3o%20Bem%20Resolvido.">Contato</a></p>
-          </div>
-          <p className="obsFacebook">
-            Este site não faz parte do site do Facebook ou do Facebook Inc. Além disso, este site não é endossado pelo Facebook de qualquer maneira. FACEBOOK é uma marca comercial de FACEBOOK, Inc.
-
-            Aviso: Qualquer menção ou informação referente a valores citada neste site e de seus produtos e serviços são somente ilustrativas não devem ser consideradas promessa de resultado ou ganho comum, exato ou promessa de renda no futuro. As dicas e sugestões das aulas contidas no site não garantem qualquer tipo de resultados, uma vez que isso depende exclusivamente do trabalho e dedicação individual de cada um. Todas as informações dos visitantes, como nome e e-mail são protegidas, e não serão compartilhadas, divulgadas, ou vendidas para terceiros. Ao se registrar nesse site, o usuário cadastrado poderá receber outras promoções de cursos sobre marketing digital, empreendedorismo e negócios.
-          </p>
-        </div>
-      </footer>
+      <FooterProducts linkWhatsapp="https://api.whatsapp.com/send?phone=5513988135562&text=Ol%C3%A1!%20Gostaria%20de%20esclarecer%20minhas%20d%C3%BAvidas%20sobre%20o%20curso%20C%C3%A3o%20Bem%20Resolvido."/>
     </>
   )
 }
