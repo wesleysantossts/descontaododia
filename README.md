@@ -30,7 +30,7 @@ A página também tem um botão de contato com o suporte que redireciona para o 
 
 - [x] React;
 - [x] React Router Dom;
-- [x] Styled Components;
+- [x] Styled Components.
 
 ## Desenvolvimento
 
